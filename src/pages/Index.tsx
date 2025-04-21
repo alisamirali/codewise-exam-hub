@@ -1,5 +1,6 @@
 import React from "react";
 import { quizzes } from "../data/quizData";
+import { Technology, quizCategories } from "../data/quizTypes";
 import QuizCard from "../components/QuizCard";
 import Header from "../components/Header";
 import Footer from "@/components/Footer";
@@ -18,9 +19,18 @@ const Index: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {quizzes.map((quiz) => (
-            <QuizCard key={quiz.id} quiz={quiz} />
+        <div className="space-y-12">
+          {(Object.keys(quizCategories) as Technology[]).map((technology) => (
+            <div key={technology} className="space-y-6">
+              <h2 className="text-2xl font-bold">{quizCategories[technology].title} Exams</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {quizzes
+                  .filter((quiz) => quiz.technology === technology)
+                  .map((quiz) => (
+                    <QuizCard key={quiz.id} quiz={quiz} />
+                  ))}
+              </div>
+            </div>
           ))}
         </div>
       </main>

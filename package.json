@@ -1,8 +1,9 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "code_wise_exam_hub",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": "Ali Samir",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
