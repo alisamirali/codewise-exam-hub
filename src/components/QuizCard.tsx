@@ -41,10 +41,13 @@ const QuizCard: React.FC<QuizCardProps> = ({ quiz }) => {
         <div className="bg-primary/10 p-2 rounded-full">{getIcon()}</div>
       </div>
 
-      <h3 className="text-xl font-bold mb-2">{quizCategories[quiz.technology].title}</h3>
-      <p className="text-gray-600 mb-4 text-sm">{quizCategories[quiz.technology].description}</p>
-      <div className="bg-primary/5 rounded-lg px-3 py-1 text-sm font-medium text-primary inline-block mb-6">
-        {difficultyLevels[quiz.difficulty].title}
+      <div className="flex items-center justify-between mb-5">
+        <h3 className="text-xl font-bold mb-2">
+          {quizCategories[quiz.technology].title}
+        </h3>
+        <div className="bg-primary/5 rounded-lg px-3 py-1 text-sm font-medium text-primary inline-block">
+          {difficultyLevels[quiz.difficulty].title}
+        </div>
       </div>
 
       <div className="flex items-center justify-between text-sm font-medium mb-6">
