@@ -15,15 +15,6 @@ const Header: React.FC = () => {
         >
           CodeWise
         </Link>
-
-        {currentQuiz && quizStarted && (
-          <div className="text-sm md:text-base font-medium">
-            Current Exam:{" "}
-            <span className="text-primary font-semibold">
-              {currentQuiz.title}
-            </span>
-          </div>
-        )}
       </div>
     </header>
   );
