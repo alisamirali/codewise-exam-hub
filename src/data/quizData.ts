@@ -1161,6 +1161,190 @@ export const quizzes: Quiz[] = [
         options: ["transition", "transform", "animation", "motion"],
         correctAnswer: 0,
       },
+      {
+        id: 11,
+        question: "What does the CSS property `z-index` control?",
+        options: [
+          "Element rotation",
+          "Stacking order of elements",
+          "Element transparency",
+          "Text alignment",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 12,
+        question:
+          "How do you apply a style to an element only when it is hovered over?",
+        options: [":hover", ":active", ":focus", ":mouseover"],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question:
+          "Which CSS property is used to round the corners of an element?",
+        options: ["border-radius", "corner-radius", "border-curve", "rounded"],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question:
+          "What is the default value of the `position` property in CSS?",
+        options: ["absolute", "relative", "fixed", "static"],
+        correctAnswer: 3,
+      },
+      {
+        id: 15,
+        question:
+          "Which CSS property is used to control the size of a background image?",
+        options: [
+          "background-size",
+          "background-scale",
+          "image-size",
+          "bg-size",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question:
+          "How do you make an element take up the full width of its parent container?",
+        options: ["width: 100%", "width: full", "size: 100%", "width: auto"],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question:
+          "Which CSS property is used to create a shadow effect behind an element?",
+        options: ["shadow", "box-shadow", "element-shadow", "drop-shadow"],
+        correctAnswer: 1,
+      },
+      {
+        id: 18,
+        question: "What is the purpose of the `display: flex` property in CSS?",
+        options: [
+          "To make an element invisible",
+          "To create a flexible box layout",
+          "To align text centrally",
+          "To add animations",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 19,
+        question:
+          "Which CSS property is used to control the spacing between lines of text?",
+        options: ["line-height", "text-spacing", "line-spacing", "font-height"],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "How do you hide an element without removing it from the document flow?",
+        options: [
+          "display: none",
+          "visibility: hidden",
+          "opacity: 0",
+          "Both visibility: hidden and opacity: 0",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 21,
+        question:
+          "Which CSS property is used to align items vertically in a flexbox container?",
+        options: [
+          "align-items",
+          "justify-content",
+          "align-content",
+          "vertical-align",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What does the `overflow` property in CSS control?",
+        options: [
+          "Element rotation",
+          "Content that exceeds an element's box",
+          "Text alignment",
+          "Element transparency",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 23,
+        question:
+          "Which CSS property is used to define the animation duration?",
+        options: [
+          "animation-duration",
+          "transition-duration",
+          "animation-time",
+          "animate-duration",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "How do you select the first child element of a parent in CSS?",
+        options: [":first-child", ":first", ":child(1)", ":nth-child(1)"],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "Which CSS property is used to create a grid layout?",
+        options: [
+          "grid-template",
+          "display: grid",
+          "grid-layout",
+          "grid-display",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 26,
+        question: "What is the purpose of the `calc()` function in CSS?",
+        options: [
+          "To perform mathematical calculations",
+          "To define animations",
+          "To set font sizes",
+          "To align elements",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question:
+          "Which CSS property is used to control the order of flex items?",
+        options: ["order", "flex-order", "item-order", "align-order"],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question:
+          "How do you apply a style to an element when it is focused, such as an input field?",
+        options: [":focus", ":active", ":hover", ":selected"],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "Which CSS property is used to set the gap between grid items?",
+        options: ["grid-gap", "gap", "grid-spacing", "Both grid-gap and gap"],
+        correctAnswer: 3,
+      },
+      {
+        id: 30,
+        question: "What is the purpose of the `transform` property in CSS?",
+        options: [
+          "To change the element's position",
+          "To modify the element's appearance (e.g., rotate, scale)",
+          "To set the element's transparency",
+          "To align text",
+        ],
+        correctAnswer: 1,
+      },
     ],
   },
 
@@ -1258,6 +1442,216 @@ export const quizzes: Quiz[] = [
         options: ["static", "relative", "absolute", "floating"],
         correctAnswer: 3,
       },
+      {
+        id: 11,
+        question: "How do you define a CSS custom property (variable)?",
+        options: [
+          "var: --my-variable;",
+          "--my-variable: value;",
+          "custom: --my-variable;",
+          "variable: --my-variable;",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 12,
+        question:
+          "Which CSS pseudo-element is used to style the first letter of an element?",
+        options: ["::first-letter", "::first-char", "::letter", "::initial"],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is the purpose of the `will-change` CSS property?",
+        options: [
+          "To change an element's size",
+          "To optimize animations by hinting at properties that will change",
+          "To define a transition effect",
+          "To control element visibility",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 14,
+        question:
+          "How do you select an element with a specific attribute value in CSS?",
+        options: [
+          "element[attr=value]",
+          "element.attr=value",
+          "element::attr(value)",
+          "element:attr(value)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question:
+          "Which CSS property is used to control the alignment of grid items along the column axis?",
+        options: [
+          "align-items",
+          "justify-content",
+          "align-content",
+          "grid-align",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 16,
+        question: "What does the `clip-path` CSS property do?",
+        options: [
+          "Clips an element to a specific shape or path",
+          "Defines a transition path",
+          "Hides an element completely",
+          "Sets a clipping border",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question:
+          "How do you apply styles only when the viewport is smaller than 600px?",
+        options: [
+          "@media (max-width: 600px) { }",
+          "@viewport (width < 600px) { }",
+          "@screen (max-width: 600px) { }",
+          "@responsive (width: 600px) { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "Which CSS function is used to calculate values dynamically?",
+        options: ["calc()", "compute()", "math()", "evaluate()"],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of the `object-fit` CSS property?",
+        options: [
+          "To control how an image or video fits within its container",
+          "To align objects in a flex container",
+          "To set the position of an object",
+          "To define object transparency",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "How do you select the last child element of a parent in CSS?",
+        options: [":last-child", ":last", ":child(last)", ":nth-last-child(1)"],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question:
+          "Which CSS property is used to control the scroll behavior of an element?",
+        options: [
+          "scroll-behavior",
+          "scroll-effect",
+          "scroll-smooth",
+          "scroll-style",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What does the `filter` CSS property do?",
+        options: [
+          "Applies graphical effects like blur or grayscale",
+          "Filters out specific elements",
+          "Controls element transparency",
+          "Aligns elements in a grid",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "How do you reference a CSS custom property in a style rule?",
+        options: [
+          "var(--my-variable)",
+          "use(--my-variable)",
+          "get(--my-variable)",
+          "--my-variable",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "Which CSS property is used to define the number of columns in a grid layout?",
+        options: [
+          "grid-template-columns",
+          "grid-columns",
+          "columns",
+          "grid-column-count",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "What is the purpose of the `currentColor` keyword in CSS?",
+        options: [
+          "To inherit the background color",
+          "To use the current value of the color property",
+          "To reset the color to default",
+          "To match the parent element's color",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 26,
+        question: "How do you prevent text from wrapping to a new line in CSS?",
+        options: [
+          "white-space: nowrap",
+          "text-wrap: none",
+          "wrap: off",
+          "line-break: none",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question:
+          "Which CSS property is used to control the stacking context of an element without changing its position?",
+        options: ["z-index", "stack-order", "layer", "overlap"],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is the purpose of the `aspect-ratio` CSS property?",
+        options: [
+          "To set the width of an element",
+          "To maintain a specific width-to-height ratio",
+          "To control image scaling",
+          "To align elements in a flexbox",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 29,
+        question:
+          "How do you select an element that immediately follows another element in CSS?",
+        options: [
+          "element + element",
+          "element ~ element",
+          "element > element",
+          "element :: element",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "Which CSS property is used to optimize rendering performance for animations?",
+        options: [
+          "transform",
+          "animation-optimize",
+          "render-mode",
+          "performance",
+        ],
+        correctAnswer: 0,
+      },
     ],
   },
 
@@ -1286,7 +1680,7 @@ export const quizzes: Quiz[] = [
       },
       {
         id: 3,
-        question: 'How do you call a function named "myFunction"?',
+        question: "How do you call a function named 'myFunction'?",
         options: [
           "call myFunction()",
           "myFunction()",
@@ -1304,7 +1698,7 @@ export const quizzes: Quiz[] = [
       {
         id: 5,
         question:
-          'How do you write an IF statement for executing code if "i" is NOT equal to 5?',
+          "How do you write an IF statement for executing code if 'i' is NOT equal to 5?",
         options: ["if (i != 5)", "if i <> 5", "if (i <> 5)", "if i =! 5 then"],
         correctAnswer: 0,
       },
@@ -1343,7 +1737,7 @@ export const quizzes: Quiz[] = [
       },
       {
         id: 9,
-        question: "How do you round the number 7.25, to the nearest integer?",
+        question: "How do you round the number 7.25 to the nearest integer?",
         options: [
           "Math.round(7.25)",
           "round(7.25)",
@@ -1357,11 +1751,180 @@ export const quizzes: Quiz[] = [
         question:
           "What is the correct JavaScript syntax for opening a new window?",
         options: [
-          'window.open("URL")',
-          'window.new("URL")',
-          'open.window("URL")',
-          'new.window("URL")',
+          "window.open('URL')",
+          "window.new('URL')",
+          "open.window('URL')",
+          "new.window('URL')",
         ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question: "How do you declare a variable in JavaScript?",
+        options: ["var myVar", "variable myVar", "v myVar", "declare myVar"],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is the correct way to write a JavaScript array?",
+        options: [
+          "var colors = ['red', 'green', 'blue']",
+          "var colors = ('red', 'green', 'blue')",
+          "var colors = {'red', 'green', 'blue'}",
+          "var colors = red, green, blue",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question:
+          "How do you access the first element of an array in JavaScript?",
+        options: ["array[0]", "array.first()", "array(1)", "array[1]"],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "Which operator is used to assign a value to a variable?",
+        options: ["==", "=", "===", ":="],
+        correctAnswer: 1,
+      },
+      {
+        id: 15,
+        question: "What is the correct way to write a JavaScript string?",
+        options: [
+          "var text = 'Hello'",
+          "var text = Hello",
+          "var text = {Hello}",
+          "var text = (Hello)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "How do you find the length of a string in JavaScript?",
+        options: [
+          "string.length",
+          "string.size()",
+          "string.len()",
+          "string.count()",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "Which JavaScript keyword is used to define a constant?",
+        options: ["var", "let", "const", "constant"],
+        correctAnswer: 2,
+      },
+      {
+        id: 18,
+        question: "How do you add an element to the end of an array?",
+        options: [
+          "array.push(element)",
+          "array.add(element)",
+          "array.append(element)",
+          "array.insert(element)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What will `typeof 'Hello'` return in JavaScript?",
+        options: ["string", "text", "word", "char"],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "How do you write a multi-line comment in JavaScript?",
+        options: [
+          "/* This is a comment */",
+          "// This is a comment",
+          "<!-- This is a comment -->",
+          "# This is a comment",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "Which method converts a string to uppercase in JavaScript?",
+        options: ["toUpperCase()", "upperCase()", "toUpper()", "capitalize()"],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question:
+          "What is the correct way to compare two values for equality in JavaScript?",
+        options: ["=", "==", "===", ":="],
+        correctAnswer: 2,
+      },
+      {
+        id: 23,
+        question:
+          "How do you get a random number between 0 and 1 in JavaScript?",
+        options: ["Math.random()", "random()", "Math.rnd()", "rnd()"],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question: "Which keyword is used to exit a loop in JavaScript?",
+        options: ["stop", "break", "exit", "return"],
+        correctAnswer: 1,
+      },
+      {
+        id: 25,
+        question: "How do you check if a variable is undefined in JavaScript?",
+        options: [
+          "typeof variable === 'undefined'",
+          "variable === null",
+          "variable == undefined",
+          "isUndefined(variable)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What is the result of `5 + '5'` in JavaScript?",
+        options: ["10", "55", "25", "NaN"],
+        correctAnswer: 1,
+      },
+      {
+        id: 27,
+        question: "How do you select an HTML element by its ID in JavaScript?",
+        options: [
+          "document.getElementById('id')",
+          "document.getId('id')",
+          "document.findElement('id')",
+          "document.selectId('id')",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What does the `alert()` function do in JavaScript?",
+        options: [
+          "Displays a message box",
+          "Logs a message to the console",
+          "Changes the page title",
+          "Redirects to a new URL",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "How do you convert a string to a number in JavaScript?",
+        options: [
+          "Number(string)",
+          "string.toNumber()",
+          "parseString(string)",
+          "toInt(string)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "Which JavaScript method removes the last element from an array?",
+        options: ["pop()", "remove()", "deleteLast()", "shift()"],
         correctAnswer: 0,
       },
     ],
@@ -1449,6 +2012,196 @@ export const quizzes: Quiz[] = [
           "Which method of an Array object adds one or more elements to the end of the array?",
         options: ["append()", "add()", "push()", "attachEnd()"],
         correctAnswer: 2,
+      },
+      {
+        id: 11,
+        question:
+          "What does the 'this' keyword refer to in a JavaScript function?",
+        options: [
+          "The global object",
+          "The function itself",
+          "The object the function is a method of",
+          "The parent function",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 12,
+        question: "How do you remove the last element from an array?",
+        options: [
+          "array.pop()",
+          "array.shift()",
+          "array.splice(-1)",
+          "array.remove()",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is a closure in JavaScript?",
+        options: [
+          "A function with no parameters",
+          "A function that has access to variables from its outer scope",
+          "A method to lock variables",
+          "A way to close a function",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 14,
+        question: "What is the output of: console.log(2 + '2')?",
+        options: ["4", "22", "NaN", "undefined"],
+        correctAnswer: 1,
+      },
+      {
+        id: 15,
+        question:
+          "Which method converts a JSON string into a JavaScript object?",
+        options: [
+          "JSON.stringify()",
+          "JSON.parse()",
+          "JSON.convert()",
+          "JSON.toObject()",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 16,
+        question: "What does the 'map' method do in JavaScript?",
+        options: [
+          "Removes elements from an array",
+          "Creates a new array with the results of calling a function for every array element",
+          "Sorts the array",
+          "Merges two arrays",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 17,
+        question:
+          "How do you prevent the default behavior of an event in JavaScript?",
+        options: [
+          "event.preventDefault()",
+          "event.stopPropagation()",
+          "event.cancel()",
+          "event.stop()",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is the purpose of the 'async' keyword?",
+        options: [
+          "To make a function synchronous",
+          "To allow a function to return a Promise",
+          "To pause execution of a function",
+          "To run a function in a loop",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 19,
+        question: "What will 'null == undefined' return?",
+        options: ["true", "false", "null", "undefined"],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "Which method is used to add an event listener to an element?",
+        options: [
+          "element.addEvent()",
+          "element.on()",
+          "element.addEventListener()",
+          "element.attachEvent()",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 21,
+        question: "What does the 'filter' method do in JavaScript?",
+        options: [
+          "Creates a new array with elements that pass a test",
+          "Modifies the original array",
+          "Sorts the array",
+          "Removes duplicates from an array",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is the output of: console.log(!!'hello')?",
+        options: ["true", "false", "'hello'", "undefined"],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "Which keyword is used to exit a loop in JavaScript?",
+        options: ["stop", "break", "exit", "return"],
+        correctAnswer: 1,
+      },
+      {
+        id: 24,
+        question: "What is the purpose of the 'Promise' object in JavaScript?",
+        options: [
+          "To handle synchronous operations",
+          "To represent the eventual completion or failure of an asynchronous operation",
+          "To store data permanently",
+          "To create loops",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 25,
+        question: "What does 'document.querySelector()' do?",
+        options: [
+          "Selects all elements matching a CSS selector",
+          "Selects the first element matching a CSS selector",
+          "Creates a new element",
+          "Removes an element",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 26,
+        question: "What is the output of: console.log([1, 2, 3].includes(2))?",
+        options: ["true", "false", "2", "undefined"],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is the difference between 'let' and 'var'?",
+        options: [
+          "'let' is function-scoped, 'var' is block-scoped",
+          "'let' is block-scoped, 'var' is function-scoped",
+          "'let' cannot be reassigned, 'var' can",
+          "There is no difference",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 28,
+        question: "What does the 'spread' operator (...) do?",
+        options: [
+          "Divides an array into parts",
+          "Copies or expands elements of an array or object",
+          "Merges two functions",
+          "Removes elements from an array",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 29,
+        question: "What is the output of: console.log(0 == '0')?",
+        options: ["true", "false", "NaN", "undefined"],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "Which method is used to join all elements of an array into a string?",
+        options: ["join()", "concat()", "merge()", "toString()"],
+        correctAnswer: 0,
       },
     ],
   },
@@ -1568,6 +2321,208 @@ export const quizzes: Quiz[] = [
           "To create arrays",
         ],
         correctAnswer: 1,
+      },
+      {
+        id: 11,
+        question: "What is the prototype chain in JavaScript?",
+        options: [
+          "A sequence of objects linked via their prototype property",
+          "A method to chain promises",
+          "A way to chain function calls",
+          "A chain of event listeners",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question:
+          "What happens when you use 'new' with a function in JavaScript?",
+        options: [
+          "It creates a new function",
+          "It creates a new object with the function as its constructor",
+          "It calls the function immediately",
+          "It throws an error",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 13,
+        question: "What is the purpose of the 'async/await' syntax?",
+        options: [
+          "To create synchronous code",
+          "To simplify working with promises",
+          "To optimize loops",
+          "To handle errors in synchronous code",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 14,
+        question:
+          "What is the output of: console.log([1, 2, 3].__proto__ === Array.prototype)?",
+        options: ["true", "false", "undefined", "null"],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What is the difference between 'call' and 'apply' methods?",
+        options: [
+          "'call' takes arguments as an array, 'apply' takes them individually",
+          "'apply' takes arguments as an array, 'call' takes them individually",
+          "No difference",
+          "'call' is faster than 'apply'",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 16,
+        question: "What is a WeakMap in JavaScript?",
+        options: [
+          "A map that allows only strings as keys",
+          "A map where keys are weakly referenced and can be garbage collected",
+          "A map that cannot be modified",
+          "A map that stores only numbers",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 17,
+        question:
+          "What is the purpose of the 'debounce' technique in JavaScript?",
+        options: [
+          "To delay function execution until after a specified time of inactivity",
+          "To execute a function immediately",
+          "To prevent memory leaks",
+          "To optimize loops",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is the output of: console.log(typeof Symbol())?",
+        options: ["object", "symbol", "string", "undefined"],
+        correctAnswer: 1,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of the 'Object.defineProperty' method?",
+        options: [
+          "To create a new object",
+          "To define or modify a property on an object",
+          "To delete a property from an object",
+          "To copy an object",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 20,
+        question: "What is event delegation in JavaScript?",
+        options: [
+          "Attaching multiple event listeners to an element",
+          "Using a single event listener on a parent to handle events for children",
+          "Preventing event propagation",
+          "Creating custom events",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 21,
+        question: "What is the output of: console.log(0.1 + 0.2 === 0.3)?",
+        options: ["true", "false", "NaN", "undefined"],
+        correctAnswer: 1,
+      },
+      {
+        id: 22,
+        question: "What is the purpose of the 'Proxy' object in JavaScript?",
+        options: [
+          "To create a copy of an object",
+          "To intercept and customize operations on an object",
+          "To lock an object from modifications",
+          "To optimize object performance",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 23,
+        question: "What is the difference between 'forEach' and 'map' methods?",
+        options: [
+          "'forEach' returns a new array, 'map' does not",
+          "'map' returns a new array, 'forEach' does not",
+          "No difference",
+          "'forEach' is faster than 'map'",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 24,
+        question: "What is the purpose of the 'Reflect' object in JavaScript?",
+        options: [
+          "To create mirrors of objects",
+          "To provide methods for interceptable JavaScript operations",
+          "To optimize function calls",
+          "To handle errors",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 25,
+        question:
+          "What is the output of: console.log(Promise.resolve(1).then(() => 2).then(val => val))?",
+        options: ["1", "2", "undefined", "Promise"],
+        correctAnswer: 1,
+      },
+      {
+        id: 26,
+        question: "What is a memory leak in JavaScript, and how can it occur?",
+        options: [
+          "When variables are not declared",
+          "When memory is not released after use, e.g., in event listeners",
+          "When too many functions are called",
+          "When arrays are too large",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 27,
+        question: "What is the purpose of the 'Object.freeze' method?",
+        options: [
+          "To make an object immutable",
+          "To copy an object",
+          "To delete an object",
+          "To convert an object to a string",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question:
+          "What is the output of: console.log([1, 2, 3].reduce((a, b) => a + b, 0))?",
+        options: ["6", "123", "undefined", "0"],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "What is the purpose of the 'throttle' technique in JavaScript?",
+        options: [
+          "To limit the rate at which a function can fire",
+          "To execute a function immediately",
+          "To prevent memory leaks",
+          "To pause function execution",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is the difference between 'Object.create' and 'new Object'?",
+        options: [
+          "'Object.create' allows specifying a prototype, 'new Object' does not",
+          "'new Object' allows specifying a prototype, 'Object.create' does not",
+          "No difference",
+          "'Object.create' is faster than 'new Object'",
+        ],
+        correctAnswer: 0,
       },
     ],
   },
