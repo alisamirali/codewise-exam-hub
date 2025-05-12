@@ -6,6 +6,7 @@ import { quizCategories, difficultyLevels } from "../data/quizTypes";
 import { Button } from "@/components/ui/button";
 import { Code } from "lucide-react";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { FaCss3Alt } from "react-icons/fa";
 
 interface QuizCardProps {
@@ -24,6 +25,8 @@ const QuizCard: React.FC<QuizCardProps> = ({ quiz }) => {
         return <FaCss3Alt className="size-6" />;
       case "javascript":
         return <FaJsSquare className="size-6" />;
+      case "tailwindcss":
+        return <RiTailwindCssFill className="size-6" />;
       default:
         return <Code className="size-6" />;
     }

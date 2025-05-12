@@ -1,6 +1,6 @@
 export type DifficultyLevel = "beginner" | "intermediate" | "advanced";
 
-export type Technology = "html" | "css" | "javascript";
+export type Technology = "html" | "css" | "javascript" | "tailwindcss";
 
 export interface QuizCategory {
   id: Technology;
@@ -27,6 +27,12 @@ export const quizCategories: Record<Technology, QuizCategory> = {
     title: "JavaScript",
     color: "from-yellow-400 to-yellow-600",
     icon: "js",
+  },
+  tailwindcss: {
+    id: "tailwindcss",
+    title: "Tailwind CSS",
+    color: "from-sky-400 to-sky-600",
+    icon: "tailwind",
   },
 };
 

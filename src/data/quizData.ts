@@ -2526,4 +2526,937 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+
+  // Tailwind CSS Beginner
+  {
+    id: "tailwindcss-beginner",
+    technology: "tailwindcss",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: 1,
+        question: "What is Tailwind CSS primarily used for?",
+        options: [
+          "Writing JavaScript functions",
+          "Styling web pages with utility classes",
+          "Managing database queries",
+          "Creating server-side logic",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 2,
+        question: "Which HTML attribute is used to apply Tailwind CSS styles?",
+        options: ["style", "class", "id", "data"],
+        correctAnswer: 1,
+      },
+      {
+        id: 3,
+        question:
+          "How do you set the background color to blue in Tailwind CSS?",
+        options: ["bg-blue", "background-blue", "bg-blue-500", "color-blue"],
+        correctAnswer: 2,
+      },
+      {
+        id: 4,
+        question: "What does the Tailwind CSS class 'p-4' do?",
+        options: [
+          "Sets padding to 4 pixels",
+          "Sets padding to 1rem (16px by default)",
+          "Sets margin to 4 pixels",
+          "Sets font size to 4rem",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 5,
+        question: "How do you center text horizontally in Tailwind CSS?",
+        options: [
+          "text-center",
+          "align-center",
+          "center-text",
+          "text-align-center",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question: "Which Tailwind CSS class sets the font size to large?",
+        options: ["font-lg", "text-lg", "size-large", "font-size-lg"],
+        correctAnswer: 1,
+      },
+      {
+        id: 7,
+        question: "How do you make an element bold in Tailwind CSS?",
+        options: ["font-bold", "text-bold", "bold", "font-weight-bold"],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "What does the 'm-2' class do in Tailwind CSS?",
+        options: [
+          "Sets margin to 2 pixels",
+          "Sets margin to 0.5rem (8px by default)",
+          "Sets padding to 2 pixels",
+          "Sets margin to 2rem",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 9,
+        question: "Which class adds a rounded border in Tailwind CSS?",
+        options: ["border-round", "rounded", "border-radius", "round"],
+        correctAnswer: 1,
+      },
+      {
+        id: 10,
+        question: "How do you apply a shadow to an element in Tailwind CSS?",
+        options: ["shadow", "box-shadow", "shadow-md", "element-shadow"],
+        correctAnswer: 2,
+      },
+      {
+        id: 11,
+        question: "What is the default file used to configure Tailwind CSS?",
+        options: [
+          "tailwind.config.js",
+          "tailwind.css",
+          "config.tailwind.js",
+          "tailwind.json",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question:
+          "Which class makes an element take the full width of its parent?",
+        options: ["w-full", "width-full", "full-width", "w-100"],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "How do you set the text color to red in Tailwind CSS?",
+        options: ["color-red", "text-red", "text-red-500", "font-red"],
+        correctAnswer: 2,
+      },
+      {
+        id: 14,
+        question: "What does the 'flex' class do in Tailwind CSS?",
+        options: [
+          "Sets display to flex",
+          "Aligns items flexibly",
+          "Stretches the element",
+          "Adds flexible padding",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "How do you vertically center items in a flex container?",
+        options: [
+          "items-center",
+          "align-center",
+          "flex-center",
+          "center-items",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "Which class hides an element in Tailwind CSS?",
+        options: ["hidden", "display-none", "hide", "invisible"],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "How do you add a border to an element in Tailwind CSS?",
+        options: ["border", "outline", "border-line", "edge"],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What does the 'gap-4' class do in a flex or grid container?",
+        options: [
+          "Sets gap between elements to 4 pixels",
+          "Sets gap between elements to 1rem (16px by default)",
+          "Sets padding to 4 pixels",
+          "Sets margin to 1rem",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 19,
+        question:
+          "Which class applies a hover effect to change text color to blue?",
+        options: [
+          "hover:text-blue-500",
+          "text-blue:hover",
+          "hover-blue-500",
+          "text-hover-blue",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "How do you make an element italic in Tailwind CSS?",
+        options: ["italic", "font-italic", "text-italic", "style-italic"],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "Which class sets the maximum width of an element to 100%?",
+        options: ["max-w-full", "width-max", "max-width-100", "w-max"],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question:
+          "How do you apply styles only on medium screens (md) and above?",
+        options: ["md:style", "medium:style", "screen-md:style", "md-style"],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "What does the 'h-8' class do in Tailwind CSS?",
+        options: [
+          "Sets height to 8 pixels",
+          "Sets height to 2rem (32px by default)",
+          "Sets height to 8rem",
+          "Sets height to 0.5rem (8px by default)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "Which class aligns items horizontally to the right in a flex container?",
+        options: ["justify-end", "align-right", "flex-right", "items-end"],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question:
+          "How do you set the opacity of an element to 50% in Tailwind CSS?",
+        options: ["opacity-50", "transparent-50", "opacity-half", "fade-50"],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "Which class adds a transition effect to an element?",
+        options: ["transition", "animate", "transition-all", "effect"],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "How do you make text uppercase in Tailwind CSS?",
+        options: [
+          "uppercase",
+          "text-uppercase",
+          "font-uppercase",
+          "transform-uppercase",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question:
+          "What is the default breakpoint prefix for small screens in Tailwind CSS?",
+        options: ["sm", "md", "lg", "xs"],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "Which class sets the cursor to a pointer on hover?",
+        options: ["cursor-pointer", "pointer", "hover-pointer", "cursor-hand"],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "How do you center a block element horizontally in Tailwind CSS?",
+        options: ["mx-auto", "center-block", "margin-center", "block-center"],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Tailwind CSS Intermediate
+  {
+    id: "tailwindcss-intermediate",
+    technology: "tailwindcss",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: 1,
+        question:
+          "How do you apply a Tailwind CSS class only on hover and focus states?",
+        options: [
+          "hover:focus:class",
+          "hover:class focus:class",
+          "state-hover-focus:class",
+          "hover-focus:class",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 2,
+        question:
+          "Which Tailwind CSS class creates a flexbox layout with items spaced evenly?",
+        options: [
+          "flex justify-between",
+          "flex space-evenly",
+          "flex justify-around",
+          "flex distribute",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question: "How do you set a custom width of 10rem in Tailwind CSS?",
+        options: ["w-10rem", "w-[10rem]", "width-10", "w-custom-10"],
+        correctAnswer: 1,
+      },
+      {
+        id: 4,
+        question: "What does the 'sm:grid-cols-2' class do in Tailwind CSS?",
+        options: [
+          "Sets 2 columns for small screens and above",
+          "Sets 2 columns for small screens only",
+          "Sets 2 rows for small screens and above",
+          "Sets 2 columns for all screen sizes",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "How do you apply a background gradient from blue to green in Tailwind CSS?",
+        options: [
+          "bg-gradient-to-r from-blue-500 to-green-500",
+          "gradient-blue-green",
+          "bg-blue-to-green",
+          "bg-gradient blue-500 green-500",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question: "Which class aligns items to the bottom of a flex container?",
+        options: ["items-end", "align-bottom", "flex-end", "items-bottom"],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "How do you configure a custom color in tailwind.config.js?",
+        options: [
+          "colors: { custom: '#123456' }",
+          "theme: { colors: { custom: '#123456' } }",
+          "theme: { extend: { colors: { custom: '#123456' } } }",
+          "customColors: { custom: '#123456' }",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 8,
+        question: "What does the 'divide-y' class do in Tailwind CSS?",
+        options: [
+          "Adds horizontal borders between child elements",
+          "Adds vertical borders between child elements",
+          "Divides the element into rows",
+          "Sets a vertical gap between elements",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "How do you apply a style only when an element is the first child?",
+        options: [
+          "first:class",
+          "child-first:class",
+          "first-child:class",
+          ":first:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "Which class creates a grid layout with 3 equal columns?",
+        options: [
+          "grid-cols-3",
+          "grid columns-3",
+          "grid-template-cols-3",
+          "cols-3",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question:
+          "How do you make an element fade in on hover using Tailwind CSS?",
+        options: [
+          "hover:opacity-100 transition-opacity",
+          "hover:fade-in",
+          "hover:opacity-50",
+          "transition hover:opacity",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What does the 'space-x-4' class do in Tailwind CSS?",
+        options: [
+          "Sets horizontal margin between child elements to 1rem",
+          "Sets vertical padding to 4 pixels",
+          "Sets horizontal padding to 1rem",
+          "Sets vertical margin between child elements to 1rem",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question:
+          "How do you apply a class only on large screens (lg) and above?",
+        options: [
+          "lg:class",
+          "large:class",
+          "screen-lg:class",
+          "lg-screen:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question:
+          "Which class rotates an element by 45 degrees in Tailwind CSS?",
+        options: [
+          "rotate-45",
+          "transform-rotate-45",
+          "rotation-45",
+          "rotate-[45deg]",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question:
+          "How do you set a custom font size of 2.5rem in Tailwind CSS?",
+        options: [
+          "text-2.5rem",
+          "text-[2.5rem]",
+          "font-size-2.5",
+          "text-custom-2.5",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 16,
+        question: "What does the 'ring-2' class do in Tailwind CSS?",
+        options: [
+          "Adds a 2px outline around an element",
+          "Adds a 2px shadow ring around an element",
+          "Sets a 2px border radius",
+          "Adds a 2px border",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 17,
+        question:
+          "How do you apply styles only when an element is focused within a form?",
+        options: [
+          "focus-within:class",
+          "form-focus:class",
+          "focus:class",
+          "within-focus:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question:
+          "Which class sets the z-index of an element to 10 in Tailwind CSS?",
+        options: ["z-10", "z-index-10", "stack-10", "layer-10"],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question:
+          "How do you create a responsive container that spans 4 columns on large screens?",
+        options: [
+          "lg:col-span-4",
+          "col-span-4 lg",
+          "large:col-span-4",
+          "col-4 lg:col-span-4",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What does the 'tracking-tight' class do in Tailwind CSS?",
+        options: [
+          "Decreases letter spacing",
+          "Increases letter spacing",
+          "Sets tight line height",
+          "Aligns text tightly",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question:
+          "How do you apply a class only when the parent has a specific class like 'group'?",
+        options: [
+          "group-hover:class",
+          "parent-hover:class",
+          "group:class",
+          "hover-parent:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "Which class adds a smooth scroll behavior in Tailwind CSS?",
+        options: [
+          "scroll-smooth",
+          "smooth-scroll",
+          "scroll-behavior-smooth",
+          "scroll-auto",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question:
+          "How do you extend the default spacing scale in tailwind.config.js?",
+        options: [
+          "spacing: { '10': '2.5rem' }",
+          "theme: { spacing: { '10': '2.5rem' } }",
+          "theme: { extend: { spacing: { '10': '2.5rem' } } }",
+          "extend: { spacing: { '10': '2.5rem' } }",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 24,
+        question: "What does the 'aspect-square' class do in Tailwind CSS?",
+        options: [
+          "Sets a 1:1 aspect ratio",
+          "Creates a square border",
+          "Aligns elements in a square grid",
+          "Sets equal padding",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "How do you apply a class only on dark mode in Tailwind CSS?",
+        options: [
+          "dark:class",
+          "dark-mode:class",
+          "theme-dark:class",
+          "night:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question:
+          "Which class scales an element to 125% of its original size in Tailwind CSS?",
+        options: [
+          "scale-125",
+          "transform-scale-125",
+          "size-125",
+          "scale-[1.25]",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question:
+          "How do you apply a class only for the last child element in Tailwind CSS?",
+        options: [
+          "last:class",
+          "child-last:class",
+          "last-child:class",
+          ":last:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What does the 'backdrop-blur-md' class do in Tailwind CSS?",
+        options: [
+          "Applies a medium blur to the background behind an element",
+          "Blurs the element itself",
+          "Adds a medium shadow to the background",
+          "Reduces background opacity",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "How do you set a custom gap of 3rem in a grid layout?",
+        options: ["gap-3rem", "gap-[3rem]", "grid-gap-3", "gap-custom-3"],
+        correctAnswer: 1,
+      },
+      {
+        id: 30,
+        question:
+          "Which class centers a grid item both horizontally and vertically in Tailwind CSS?",
+        options: [
+          "place-self-center",
+          "self-center",
+          "center-grid",
+          "justify-items-center",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Tailwind CSS Advanced
+  {
+    id: "tailwindcss-advanced",
+    technology: "tailwindcss",
+    difficulty: "advanced",
+    questions: [
+      {
+        id: 1,
+        question:
+          "How do you create a custom utility in a Tailwind CSS plugin?",
+        options: [
+          "module.exports = { utilities: { '.custom': { property: 'value' } } }",
+          "module.exports = { plugins: [function({ addUtilities }) { addUtilities({ '.custom': { property: 'value' } }) }] }",
+          "theme: { extend: { utilities: { custom: { property: 'value' } } } }",
+          "plugins: { custom: { property: 'value' } }",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 2,
+        question:
+          "Which Tailwind CSS directive is used to apply styles conditionally based on a parent’s state?",
+        options: ["@apply", "@variants", "@group", "@container"],
+        correctAnswer: 2,
+      },
+      {
+        id: 3,
+        question: "How do you enable JIT (Just-In-Time) mode in Tailwind CSS?",
+        options: [
+          "mode: 'jit' in tailwind.config.js",
+          "jit: true in tailwind.config.js",
+          "enableJit: true in tailwind.config.js",
+          "theme: { jit: true } in tailwind.config.js",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question:
+          "What does the 'supports-[feature]' variant do in Tailwind CSS?",
+        options: [
+          "Applies styles if a CSS feature is supported",
+          "Checks for browser compatibility",
+          "Enables feature flags in Tailwind",
+          "Adds support for custom utilities",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "How do you apply a custom CSS property using arbitrary values in Tailwind CSS?",
+        options: [
+          "[--custom: value]",
+          "custom-[--custom: value]",
+          "[custom: value]",
+          "style-[--custom: value]",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "Which class creates a grid with a variable number of columns based on content?",
+        options: [
+          "grid-cols-auto",
+          "grid-flow-col",
+          "grid-cols-minmax",
+          "auto-cols-auto",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "How do you purge unused Tailwind CSS classes in production?",
+        options: [
+          "purge: ['./src/**/*.{html,js}'] in tailwind.config.js",
+          "clean: ['./src/**/*.{html,js}'] in tailwind.config.js",
+          "optimize: ['./src/**/*.{html,js}'] in tailwind.config.js",
+          "remove: ['./src/**/*.{html,js}'] in tailwind.config.js",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question:
+          "What does the 'peer-checked:class' variant do in Tailwind CSS?",
+        options: [
+          "Applies styles when a peer element is checked",
+          "Checks the peer element’s state",
+          "Applies styles to checked elements",
+          "Targets the parent of a checked element",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "How do you apply a class conditionally based on a custom media query?",
+        options: [
+          "[@media (min-width: 800px)]:class",
+          "media-[min-width:800px]:class",
+          "[min-width:800px]:class",
+          "custom-media:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question:
+          "Which class ensures a flex item grows to fill available space?",
+        options: ["flex-grow", "grow", "flex-expand", "expand"],
+        correctAnswer: 1,
+      },
+      {
+        id: 11,
+        question: "How do you add a custom screen size in tailwind.config.js?",
+        options: [
+          "screens: { 'custom': '800px' }",
+          "theme: { screens: { 'custom': '800px' } }",
+          "theme: { extend: { screens: { 'custom': '800px' } } }",
+          "customScreens: { 'custom': '800px' }",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 12,
+        question:
+          "What does the 'motion-safe:class' variant do in Tailwind CSS?",
+        options: [
+          "Applies styles only if reduced motion is disabled",
+          "Ensures animations are safe for all users",
+          "Applies styles for motion-based transitions",
+          "Disables animations for accessibility",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question:
+          "How do you create a custom transition timing function in Tailwind CSS?",
+        options: [
+          "transitionTimingFunction: { custom: 'cubic-bezier(0.4, 0, 0.2, 1)' }",
+          "theme: { extend: { transitionTimingFunction: { custom: 'cubic-bezier(0.4, 0, 0.2, 1)' } } }",
+          "timing: { custom: 'cubic-bezier(0.4, 0, 0.2, 1)' }",
+          "transition: { custom: 'cubic-bezier(0.4, 0, 0.2, 1)' }",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 14,
+        question: "Which class applies a clip-path to create a circular shape?",
+        options: [
+          "clip-circle",
+          "[clip-path:circle()]",
+          "clip-path-circle",
+          "circle-clip",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 15,
+        question:
+          "How do you apply styles only when an element is in a specific orientation?",
+        options: [
+          "orientation-[portrait]:class",
+          "portrait:class",
+          "screen-orientation:class",
+          "[orientation:portrait]:class",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 16,
+        question: "What does the 'content-none' class do in Tailwind CSS?",
+        options: [
+          "Removes the content of a pseudo-element",
+          "Hides the element’s content",
+          "Clears the content property",
+          "Disables content alignment",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question:
+          "How do you create a custom utility for a CSS filter in a Tailwind plugin?",
+        options: [
+          "addUtilities({ '.filter-custom': { filter: 'blur(5px)' } })",
+          "addFilter({ '.filter-custom': { filter: 'blur(5px)' } })",
+          "utilities: { filter: { custom: 'blur(5px)' } }",
+          "theme: { filter: { custom: 'blur(5px)' } }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question:
+          "Which class applies styles to an element when it’s the only child?",
+        options: [
+          "only:class",
+          "single:class",
+          "only-child:class",
+          ":only:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question:
+          "How do you optimize Tailwind CSS for faster builds in a large project?",
+        options: [
+          "Enable JIT mode and configure purge",
+          "Disable all variants",
+          "Use inline CSS instead of Tailwind",
+          "Remove tailwind.config.js",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "What does the 'aria-checked:class' variant do in Tailwind CSS?",
+        options: [
+          "Applies styles when an element has aria-checked='true'",
+          "Checks ARIA attributes",
+          "Applies styles to checked inputs",
+          "Targets ARIA-labeled elements",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "How do you apply a class only when printing a page?",
+        options: [
+          "print:class",
+          "[@media print]:class",
+          "media-print:class",
+          "print-only:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question:
+          "Which class creates a grid with a minimum column width of 200px?",
+        options: [
+          "grid-cols-minmax-200",
+          "auto-cols-min-[200px]",
+          "grid-cols-[minmax(200px, 1fr)]",
+          "cols-min-200",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "How do you extend Tailwind’s default opacity scale?",
+        options: [
+          "opacity: { '15': '0.15' }",
+          "theme: { opacity: { '15': '0.15' } }",
+          "theme: { extend: { opacity: { '15': '0.15' } } }",
+          "extend: { opacity: { '15': '0.15' } }",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 24,
+        question:
+          "What does the 'forced-color-adjust-auto' class do in Tailwind CSS?",
+        options: [
+          "Adjusts colors for forced color modes",
+          "Forces a specific color scheme",
+          "Auto-corrects color contrast",
+          "Disables color adjustments",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question:
+          "How do you apply a class only when an element is in a specific scroll position?",
+        options: [
+          "scroll-[top]:class",
+          "[scroll-position:top]:class",
+          "scroll-top:class",
+          "sticky:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question:
+          "Which class creates a smooth animation for transform and opacity changes?",
+        options: [
+          "transition-transform-opacity",
+          "transition-all",
+          "animate-transform-opacity",
+          "transition",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question:
+          "How do you add a custom keyframe animation in tailwind.config.js?",
+        options: [
+          "keyframes: { custom: { '0%': { opacity: 0 }, '100%': { opacity: 1 } } }",
+          "theme: { extend: { keyframes: { custom: { '0%': { opacity: 0 }, '100%': { opacity: 1 } } } } }",
+          "animations: { custom: { '0%': { opacity: 0 }, '100%': { opacity: 1 } } }",
+          "extend: { animation: { custom: { '0%': { opacity: 0 }, '100%': { opacity: 1 } } } }",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 28,
+        question:
+          "What does the 'has-[selector]:class' variant do in Tailwind CSS?",
+        options: [
+          "Applies styles if an element contains a matching selector",
+          "Targets elements with specific attributes",
+          "Checks for child elements",
+          "Applies styles to parent elements",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "How do you apply a class only for high-contrast mode?",
+        options: [
+          "high-contrast:class",
+          "[@media (forced-colors: active)]:class",
+          "contrast:class",
+          "media-contrast:class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "Which class ensures a grid item spans across all available tracks?",
+        options: ["col-span-full", "span-all", "grid-span-full", "col-full"],
+        correctAnswer: 0,
+      },
+    ],
+  },
 ];
