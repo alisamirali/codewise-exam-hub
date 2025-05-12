@@ -3459,4 +3459,1002 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+
+  // Sass Beginner
+  {
+    id: "sass-beginner",
+    technology: "sass",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: 1,
+        question: "What is Sass primarily used for?",
+        options: [
+          "JavaScript programming",
+          "CSS preprocessing",
+          "HTML templating",
+          "Database management",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 2,
+        question: "Which file extension is commonly used for Sass files?",
+        options: [".css", ".scss", ".sass", "Both .scss and .sass"],
+        correctAnswer: 3,
+      },
+      {
+        id: 3,
+        question: "How do you define a variable in Sass?",
+        options: [
+          "$variable: value;",
+          "var variable = value;",
+          "@variable: value;",
+          "#variable: value;",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question: "What is the correct syntax to use a Sass variable?",
+        options: ["{variable}", "$variable", "@variable", "%variable"],
+        correctAnswer: 1,
+      },
+      {
+        id: 5,
+        question: "Which symbol is used for nesting selectors in Sass?",
+        options: ["&", ">", "#", "@"],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question: "What does the `&` symbol represent in Sass nesting?",
+        options: [
+          "Child selector",
+          "Parent selector",
+          "Sibling selector",
+          "Class selector",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 7,
+        question:
+          "How do you write a comment in Sass that won’t appear in the compiled CSS?",
+        options: [
+          "// comment",
+          "/* comment */",
+          "# comment",
+          "<!-- comment -->",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "What is the purpose of a Sass mixin?",
+        options: [
+          "To store variables",
+          "To reuse a group of CSS declarations",
+          "To import files",
+          "To define loops",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 9,
+        question: "How do you define a mixin in Sass?",
+        options: [
+          "@mixin name { }",
+          "@function name { }",
+          "@define name { }",
+          "@mix name { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "How do you include a mixin in Sass?",
+        options: [
+          "@include name;",
+          "@use name;",
+          "@apply name;",
+          "@mixin name;",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question: "What does the `@import` directive do in Sass?",
+        options: [
+          "Imports JavaScript files",
+          "Imports other Sass files",
+          "Imports fonts",
+          "Imports images",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 12,
+        question:
+          "Which Sass feature allows one selector to inherit styles from another?",
+        options: ["@extend", "@mixin", "@inherit", "@include"],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question:
+          "What is the output of `$color: red; div { color: $color; }` after compilation?",
+        options: [
+          "div { color: $color; }",
+          "div { color: red; }",
+          "div { $color: red; }",
+          "div { color: none; }",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 14,
+        question: "Which operator is used for addition in Sass?",
+        options: ["+", "&", "++", "#"],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question:
+          "How do you write a multi-line comment in Sass that appears in the compiled CSS?",
+        options: [
+          "// comment",
+          "/* comment */",
+          "# comment",
+          "<!-- comment -->",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 16,
+        question: "What is the purpose of the `@function` directive in Sass?",
+        options: [
+          "To define reusable styles",
+          "To create custom calculations",
+          "To import files",
+          "To nest selectors",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 17,
+        question:
+          "Which keyword is used to return a value from a Sass function?",
+        options: ["@return", "@yield", "@output", "@result"],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "How do you apply a parent selector suffix in Sass nesting?",
+        options: ["&-suffix", "$-suffix", "@suffix", "#suffix"],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What does the `@if` directive do in Sass?",
+        options: [
+          "Loops through values",
+          "Conditionally applies styles",
+          "Imports files",
+          "Defines variables",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 20,
+        question: "How do you compile Sass code into CSS?",
+        options: [
+          "Using a text editor",
+          "Using a Sass compiler",
+          "Using a browser",
+          "Using HTML",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 21,
+        question:
+          "What is the difference between `.scss` and `.sass` file extensions?",
+        options: [
+          "`.scss` uses curly braces, `.sass` uses indentation",
+          "`.scss` is for CSS, `.sass` is for Sass",
+          "`.scss` is deprecated, `.sass` is modern",
+          "No difference",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "How do you pass an argument to a mixin in Sass?",
+        options: [
+          "@mixin name($arg) { }",
+          "@mixin name: $arg { }",
+          "@mixin name => $arg { }",
+          "@mixin name[$arg] { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question:
+          "Which Sass feature allows you to loop through a list of values?",
+        options: ["@for", "@while", "@each", "All of the above"],
+        correctAnswer: 3,
+      },
+      {
+        id: 24,
+        question: "What does the `@else` directive do in Sass?",
+        options: [
+          "Starts a loop",
+          "Provides an alternative condition",
+          "Includes a mixin",
+          "Imports a file",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 25,
+        question: "How do you interpolate a variable in a Sass string?",
+        options: [
+          "#{$variable}",
+          "${variable}",
+          "@{$variable}",
+          "%{$variable}",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question:
+          "What is the default value of a Sass variable if not specified?",
+        options: ["null", "0", "none", "undefined"],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "Which directive is used to include external Sass libraries?",
+        options: ["@use", "@import", "@require", "@load"],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question:
+          "What happens if you use `@extend` on a selector that doesn’t exist?",
+        options: [
+          "Sass throws an error",
+          "The style is ignored",
+          "The CSS compiles with no output",
+          "The selector is created",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "How do you define a default value for a mixin argument in Sass?",
+        options: [
+          "$arg: value",
+          "$arg = value",
+          "$arg => value",
+          "$arg default value",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is the purpose of the `!default` flag in Sass variables?",
+        options: [
+          "Forces variable override",
+          "Sets a value only if the variable is undefined",
+          "Makes the variable global",
+          "Prevents variable usage",
+        ],
+        correctAnswer: 1,
+      },
+    ],
+  },
+
+  // Sass Intermediate
+  {
+    id: "sass-intermediate",
+    technology: "sass",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: 1,
+        question:
+          "How do you use the `@use` directive in Sass to import a module?",
+        options: [
+          "@use 'module';",
+          "@use module;",
+          "@import 'module';",
+          "@use module as *;",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question:
+          "What is the purpose of the `as` keyword in the `@use` directive?",
+        options: [
+          "To rename the module namespace",
+          "To specify a file extension",
+          "To apply a condition",
+          "To include a mixin",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question:
+          "How do you access a variable from a module imported with `@use 'module' as mod`?",
+        options: [
+          "$module.variable",
+          "$mod.variable",
+          "$variable",
+          "module.$variable",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 4,
+        question: "What does the `@forward` directive do in Sass?",
+        options: [
+          "Exports variables to JavaScript",
+          "Forwards a module’s members to other files",
+          "Includes a mixin",
+          "Loops through values",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 5,
+        question:
+          "How do you conditionally include a mixin based on an argument?",
+        options: [
+          "@if $arg { @include mixin; }",
+          "@include mixin if $arg;",
+          "@mixin $arg { @include; }",
+          "@if $arg => @include mixin;",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "What is the output of `$num: 10; div { width: $num * 2px; }` after compilation?",
+        options: [
+          "div { width: 20px; }",
+          "div { width: 10 * 2px; }",
+          "div { width: 20; }",
+          "div { width: $num * 2px; }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question:
+          "How do you create a mixin that accepts multiple arguments in Sass?",
+        options: [
+          "@mixin name($arg1, $arg2) { }",
+          "@mixin name($arg1 $arg2) { }",
+          "@mixin name[$arg1, $arg2] { }",
+          "@mixin name($arg1; $arg2) { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "What is the purpose of the `content` block in a mixin?",
+        options: [
+          "To define variables",
+          "To allow custom styles to be passed into the mixin",
+          "To import files",
+          "To loop through values",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 9,
+        question: "How do you include a content block in a mixin?",
+        options: ["@content;", "@include content;", "@block;", "@yield;"],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "What does the `@each` directive do in Sass?",
+        options: [
+          "Iterates over a list or map",
+          "Conditionally applies styles",
+          "Defines a function",
+          "Imports a module",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question:
+          "How do you write a `@for` loop in Sass to iterate from 1 to 5?",
+        options: [
+          "@for $i from 1 to 5 { }",
+          "@for $i from 1 through 5 { }",
+          "@for $i in 1 to 5 { }",
+          "@for $i = 1 to 5 { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question:
+          "What is the difference between `@for ... to` and `@for ... through` in Sass?",
+        options: [
+          "`to` excludes the end value, `through` includes it",
+          "`to` includes the end value, `through` excludes it",
+          "`to` is for lists, `through` is for maps",
+          "No difference",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "How do you access a value in a Sass map?",
+        options: [
+          "map-get($map, key)",
+          "$map[key]",
+          "$map.key",
+          "map($map, key)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "What is the purpose of the `!global` flag in Sass?",
+        options: [
+          "Makes a variable accessible outside its scope",
+          "Prevents variable override",
+          "Sets a default value",
+          "Exports a variable to CSS",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "How do you merge two Sass maps?",
+        options: [
+          "map-merge($map1, $map2)",
+          "$map1 + $map2",
+          "merge($map1, $map2)",
+          "map($map1, $map2)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What happens when you use `@extend` inside a media query?",
+        options: [
+          "It works normally",
+          "Sass throws an error",
+          "The styles are ignored",
+          "The media query is ignored",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 17,
+        question: "How do you define a placeholder selector in Sass?",
+        options: [
+          "%selector { }",
+          "#selector { }",
+          ".selector { }",
+          "@selector { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question:
+          "What is the benefit of using placeholder selectors with `@extend`?",
+        options: [
+          "They reduce compiled CSS size",
+          "They allow dynamic variables",
+          "They enable loops",
+          "They import modules",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "How do you perform string interpolation in a Sass selector?",
+        options: [
+          ".#{$var} { }",
+          ".${var} { }",
+          ".@{$var} { }",
+          ".%{$var} { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "What does the `darken($color, $amount)` function do in Sass?",
+        options: [
+          "Lightens a color",
+          "Darkens a color",
+          "Changes opacity",
+          "Inverts a color",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 21,
+        question: "How do you check if a value exists in a Sass list?",
+        options: [
+          "index($list, $value)",
+          "list-contains($list, $value)",
+          "$list[$value]",
+          "has($list, $value)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is the purpose of the `@while` directive in Sass?",
+        options: [
+          "Conditionally applies styles",
+          "Loops until a condition is false",
+          "Imports modules",
+          "Defines a function",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 23,
+        question:
+          "How do you create a function in Sass that returns a calculated value?",
+        options: [
+          "@function name($arg) { @return $arg * 2; }",
+          "@mixin name($arg) { @return $arg * 2; }",
+          "@function name($arg) { $arg * 2; }",
+          "@return name($arg) { $arg * 2; }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "What does the `if($condition, $true, $false)` function do in Sass?",
+        options: [
+          "Returns $true if $condition is true, otherwise $false",
+          "Loops through values",
+          "Merges maps",
+          "Imports files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question:
+          "How do you apply a default namespace to a module with `@use`?",
+        options: [
+          "@use 'module' as *;",
+          "@use 'module' with default;",
+          "@use 'module' namespace;",
+          "@use 'module' global;",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What is the purpose of the `meta` module in Sass?",
+        options: [
+          "Provides utility functions for inspecting Sass",
+          "Handles color calculations",
+          "Manages loops",
+          "Imports external files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "How do you use the `meta.call()` function in Sass?",
+        options: [
+          "To invoke a function dynamically",
+          "To import a module",
+          "To loop through a list",
+          "To merge maps",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What does the `selector-nest()` function do in Sass?",
+        options: [
+          "Combines multiple selectors",
+          "Removes a selector",
+          "Checks selector validity",
+          "Exports a selector",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "How do you handle vendor prefixes in Sass for cross-browser compatibility?",
+        options: [
+          "Use a mixin with prefixes",
+          "Sass automatically adds prefixes",
+          "Use @prefix directive",
+          "Use @vendor directive",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is the benefit of using `@use` over `@import` in modern Sass?",
+        options: [
+          "Better namespace management",
+          "Faster compilation",
+          "Smaller CSS output",
+          "Simpler syntax",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Sass Advanced
+  {
+    id: "sass-advanced",
+    technology: "sass",
+    difficulty: "advanced",
+    questions: [
+      {
+        id: 1,
+        question:
+          "How does the `@use` directive with `with` clause configure module variables?",
+        options: [
+          "@use 'module' with ($var: value);",
+          "@use 'module' configure ($var: value);",
+          "@use 'module' set ($var: value);",
+          "@use 'module' vars ($var: value);",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question:
+          "What is the purpose of the `meta.load-css()` function in Sass?",
+        options: [
+          "Dynamically imports and evaluates a CSS module",
+          "Loads a JavaScript file",
+          "Compiles Sass to CSS",
+          "Merges multiple maps",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question:
+          "How do you prevent a module’s members from being forwarded with `@forward`?",
+        options: [
+          "Use `hide` keyword",
+          "Use `private` keyword",
+          "Use `exclude` keyword",
+          "Use `restrict` keyword",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question:
+          "What does the `meta.feature-exists()` function check in Sass?",
+        options: [
+          "Availability of a Sass feature",
+          "Browser support for a CSS property",
+          "Existence of a variable",
+          "Validity of a selector",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question: "How do you create a custom error in Sass?",
+        options: [
+          "@error 'message';",
+          "@throw 'message';",
+          "@warn 'message';",
+          "@exception 'message';",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "What is the output of `selector-append('.a', '.b')` in Sass?",
+        options: [".a.b", ".a .b", ".a, .b", ".a + .b"],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question:
+          "How do you check the type of a value in Sass using the `meta` module?",
+        options: [
+          "meta.type-of($value)",
+          "meta.get-type($value)",
+          "meta.value-type($value)",
+          "meta.check-type($value)",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question:
+          "What is the purpose of the `meta.inspect()` function in Sass?",
+        options: [
+          "Converts a value to a string for debugging",
+          "Validates a CSS property",
+          "Merges two maps",
+          "Loops through a list",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "How do you dynamically generate a selector using `selector-unify()`?",
+        options: [
+          "selector-unify('.a', '.b')",
+          "selector-merge('.a', '.b')",
+          "selector-combine('.a', '.b')",
+          "selector-join('.a', '.b')",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "What does the `math.div()` function do in Sass?",
+        options: [
+          "Performs division, preserving units",
+          "Rounds a number",
+          "Calculates a percentage",
+          "Converts units",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question: "How do you optimize Sass compilation for large projects?",
+        options: [
+          "Use `@use` instead of `@import`",
+          "Increase variable usage",
+          "Avoid nesting selectors",
+          "Use inline CSS",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is the purpose of the `unique-id()` function in Sass?",
+        options: [
+          "Generates a unique identifier",
+          "Creates a random color",
+          "Validates a selector",
+          "Merges maps",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "How do you handle deprecated Sass features in a codebase?",
+        options: [
+          "Use `@warn` to log deprecation",
+          "Use `@error` to stop compilation",
+          "Use `@debug` to trace issues",
+          "Ignore warnings",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question:
+          "What is the benefit of using `map.remove()` over `map-get()` in Sass?",
+        options: [
+          "Removes a key-value pair from a map",
+          "Retrieves a value faster",
+          "Merges two maps",
+          "Validates map keys",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question:
+          "How do you create a mixin that supports variable arguments in Sass?",
+        options: [
+          "@mixin name($args...) { }",
+          "@mixin name($args*) { }",
+          "@mixin name($args[]) { }",
+          "@mixin name($args: all) { }",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question:
+          "What does the `meta.global-variable-exists()` function check?",
+        options: [
+          "If a global variable is defined",
+          "If a local variable is defined",
+          "If a module is imported",
+          "If a function exists",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "How do you use the `color.adjust()` function in Sass?",
+        options: [
+          "Modifies specific color properties",
+          "Converts a color to grayscale",
+          "Inverts a color",
+          "Merges two colors",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is the purpose of the `@debug` directive in Sass?",
+        options: [
+          "Logs information to the console for debugging",
+          "Throws an error",
+          "Imports a module",
+          "Optimizes compilation",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "How do you implement a custom unit conversion in Sass?",
+        options: [
+          "Create a function with `math.div()` and unit handling",
+          "Use `unit-convert()` built-in function",
+          "Use `@extend` with units",
+          "Use `map-get()` for units",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "What does the `selector.is-superselector()` function do in Sass?",
+        options: [
+          "Checks if one selector matches or contains another",
+          "Combines two selectors",
+          "Validates a selector",
+          "Removes a selector",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "How do you namespace a forwarded module with `@forward`?",
+        options: [
+          "@forward 'module' as prefix-*;",
+          "@forward 'module' namespace prefix;",
+          "@forward 'module' with prefix;",
+          "@forward 'module' as *;",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is the purpose of the `list.slash()` function in Sass?",
+        options: [
+          "Joins lists with a slash separator",
+          "Splits a list",
+          "Merges two lists",
+          "Removes an item from a list",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "How do you integrate Sass with a CSS-in-JS workflow?",
+        options: [
+          "Compile Sass to CSS and import in JS",
+          "Use Sass directly in JS",
+          "Convert Sass to JavaScript",
+          "Use `@extend` in JS",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "What is the benefit of using `meta.call()` over direct function invocation?",
+        options: [
+          "Allows dynamic function calls",
+          "Improves performance",
+          "Simplifies syntax",
+          "Merges maps",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "How do you handle browser-specific hacks in Sass?",
+        options: [
+          "Use mixins with conditional prefixes",
+          "Use `@hack` directive",
+          "Use `browser()` function",
+          "Use `@extend` for hacks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What does the `string.quote()` function do in Sass?",
+        options: [
+          "Wraps a string in quotes",
+          "Removes quotes from a string",
+          "Converts a string to uppercase",
+          "Splits a string",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "How do you create a reusable breakpoint system in Sass?",
+        options: [
+          "Use a map and mixin for breakpoints",
+          "Use `@extend` for breakpoints",
+          "Use `breakpoint()` function",
+          "Use lists for breakpoints",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is the purpose of the `math.unit()` function in Sass?",
+        options: [
+          "Extracts the unit of a number",
+          "Converts units",
+          "Rounds a number",
+          "Merges units",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "How do you avoid selector bloat when using `@extend` in large projects?",
+        options: [
+          "Use placeholder selectors and limit `@extend` usage",
+          "Use `@import` instead",
+          "Use variables for selectors",
+          "Use `@use` for selectors",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is the benefit of using the Sass module system for large-scale projects?",
+        options: [
+          "Encourages encapsulation and reduces naming conflicts",
+          "Increases compilation speed",
+          "Simplifies CSS output",
+          "Eliminates variables",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
 ];
