@@ -4457,4 +4457,913 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+
+  // Bootstrap Beginner
+  {
+    id: "bootstrap-beginner",
+    technology: "bootstrap",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: 1,
+        question: "What is Bootstrap primarily used for?",
+        options: [
+          "Server-side scripting",
+          "Frontend framework for responsive design",
+          "Database management",
+          "Backend API development",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 2,
+        question:
+          "Which class is used to create a responsive container in Bootstrap?",
+        options: ["container", "box", "wrapper", "container-fluid"],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question:
+          "How many columns does Bootstrap's grid system use by default?",
+        options: ["6", "8", "10", "12"],
+        correctAnswer: 3,
+      },
+      {
+        id: 4,
+        question: "Which Bootstrap class is used to create a primary button?",
+        options: ["btn-primary", "button-primary", "btn-blue", "primary-btn"],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "What is the correct way to include Bootstrap CSS in an HTML file?",
+        options: [
+          "link-bootstrap",
+          "bootstrap.css",
+          "bootstrap.min.css",
+          '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">',
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: 6,
+        question: "Which class is used to make text bold in Bootstrap?",
+        options: ["text-bold", "font-weight-bold", "bold", "text-strong"],
+        correctAnswer: 1,
+      },
+      {
+        id: 7,
+        question: "What does the `col-md-6` class mean in Bootstrap?",
+        options: [
+          "6 columns on mobile devices",
+          "6 columns on medium and larger screens",
+          "6 rows on medium screens",
+          "6 pixels width",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 8,
+        question: "Which Bootstrap class creates a responsive navbar?",
+        options: ["navbar", "nav-bar", "navigation", "menu"],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "Which class is used to center an element horizontally in Bootstrap?",
+        options: ["center", "mx-auto", "align-center", "text-center"],
+        correctAnswer: 1,
+      },
+      {
+        id: 10,
+        question: "What is the purpose of the `row` class in Bootstrap?",
+        options: [
+          "To create a horizontal line",
+          "To group columns in the grid system",
+          "To add padding",
+          "To align text",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 11,
+        question: "Which Bootstrap class is used to create a card component?",
+        options: ["card", "box", "panel", "container-card"],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What does the `d-none` class do in Bootstrap?",
+        options: [
+          "Displays an element",
+          "Hides an element",
+          "Centers an element",
+          "Makes text bold",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 13,
+        question: "Which class is used to create a success alert in Bootstrap?",
+        options: [
+          "alert-success",
+          "alert-green",
+          "success-alert",
+          "alert-primary",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "How do you make an image responsive in Bootstrap?",
+        options: [
+          "img-responsive",
+          "img-fluid",
+          "image-responsive",
+          "img-full",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 15,
+        question:
+          "Which class is used to add margin to all sides of an element?",
+        options: ["m-3", "margin-all", "p-3", "spacing-3"],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What is the purpose of the `btn` class in Bootstrap?",
+        options: [
+          "To style buttons",
+          "To create a badge",
+          "To align text",
+          "To add a border",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "Which class is used to create a large button in Bootstrap?",
+        options: ["btn-lg", "btn-large", "large-btn", "btn-xl"],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What does the `col` class without a size specifier do?",
+        options: [
+          "Takes up 1 column",
+          "Takes up remaining space equally",
+          "Centers the column",
+          "Hides the column",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 19,
+        question: "Which class is used to create a badge in Bootstrap?",
+        options: ["badge", "tag", "label", "marker"],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What is the purpose of the `container-fluid` class?",
+        options: [
+          "Creates a fixed-width container",
+          "Creates a full-width container",
+          "Centers text",
+          "Adds padding",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 21,
+        question: "Which class is used to create a dropdown menu in Bootstrap?",
+        options: ["dropdown", "menu", "drop-menu", "select"],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What does the `text-primary` class do in Bootstrap?",
+        options: [
+          "Sets text to bold",
+          "Sets text to the primary color",
+          "Centers text",
+          "Underlines text",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 23,
+        question:
+          "Which class is used to create a rounded button in Bootstrap?",
+        options: ["btn-round", "btn-rounded", "rounded", "btn-circle"],
+        correctAnswer: 2,
+      },
+      {
+        id: 24,
+        question:
+          "What is the purpose of the `form-control` class in Bootstrap?",
+        options: [
+          "To style form inputs",
+          "To align forms",
+          "To create buttons",
+          "To add margins",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question:
+          "Which class is used to create a responsive table in Bootstrap?",
+        options: [
+          "table",
+          "table-responsive",
+          "responsive-table",
+          "table-fluid",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 26,
+        question: "What does the `p-3` class do in Bootstrap?",
+        options: [
+          "Adds padding to all sides",
+          "Adds margin to all sides",
+          "Sets font size",
+          "Centers an element",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "Which class is used to create a modal in Bootstrap?",
+        options: ["modal", "popup", "dialog", "window"],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is the purpose of the `bg-primary` class in Bootstrap?",
+        options: [
+          "Sets the background to transparent",
+          "Sets the background to the primary color",
+          "Adds a border",
+          "Centers the element",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 29,
+        question: "Which class is used to create a list group in Bootstrap?",
+        options: ["list-group", "group-list", "list", "item-group"],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What does the `align-items-center` class do in a flex container?",
+        options: [
+          "Aligns items vertically in the center",
+          "Aligns items horizontally in the center",
+          "Stretches items to fill the container",
+          "Spaces items evenly",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Bootstrap Intermediate
+  {
+    id: "bootstrap-intermediate",
+    technology: "bootstrap",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: 1,
+        question:
+          "Which Bootstrap class is used to make a column span 6 columns on medium screens and 12 columns on small screens?",
+        options: [
+          "col-md-6 col-sm-12",
+          "col-6 col-12",
+          "col-md-6 col-12",
+          "col-sm-6 col-md-12",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question: "What does the `order-md-2` class do in Bootstrap?",
+        options: [
+          "Changes the order of a flex item to 2 on medium and larger screens",
+          "Sets the margin to 2 on medium screens",
+          "Aligns items to the second position",
+          "Changes the column width to 2",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question:
+          "Which class is used to create a sticky-top navbar in Bootstrap?",
+        options: ["sticky-top", "fixed-top", "navbar-sticky", "top-sticky"],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question:
+          "How do you disable a button in Bootstrap while maintaining its styling?",
+        options: [
+          "Add the `disabled` attribute",
+          "Use `btn-disabled` class",
+          "Set `opacity: 0.5`",
+          "Use `btn-block` class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "Which class is used to align a navbar's content to the right?",
+        options: ["ms-auto", "me-auto", "ml-auto", "justify-content-end"],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question: "What is the purpose of the `d-md-none` class in Bootstrap?",
+        options: [
+          "Hides an element on medium and larger screens",
+          "Displays an element only on medium screens",
+          "Hides an element on small screens",
+          "Centers an element on medium screens",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question:
+          "Which class is used to create a card with a header in Bootstrap?",
+        options: ["card-header", "header-card", "card-top", "card-title"],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "How do you create a responsive column offset in Bootstrap?",
+        options: [
+          "Use `offset-md-3`",
+          "Use `col-offset-3`",
+          "Use `margin-md-3`",
+          "Use `push-md-3`",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "Which class is used to create a modal that fades in when opened?",
+        options: ["fade", "modal-fade", "animate-modal", "modal-show"],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question:
+          "What does the `justify-content-between` class do in a flex container?",
+        options: [
+          "Aligns items with space between them",
+          "Centers items horizontally",
+          "Aligns items to the start",
+          "Stretches items to fill the container",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question:
+          "Which class is used to create a collapsible element in Bootstrap?",
+        options: ["collapse", "accordion", "fold", "toggle"],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question:
+          "What is the purpose of the `data-bs-toggle` attribute in Bootstrap?",
+        options: [
+          "To style buttons",
+          "To trigger JavaScript behaviors like modals or collapses",
+          "To set the background color",
+          "To align text",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 13,
+        question:
+          "Which class is used to create a breadcrumb navigation in Bootstrap?",
+        options: ["breadcrumb", "nav-breadcrumb", "path", "crumb"],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question:
+          "How do you make a table row highlighted as active in Bootstrap?",
+        options: ["active", "table-active", "row-active", "highlight"],
+        correctAnswer: 1,
+      },
+      {
+        id: 15,
+        question:
+          "Which class is used to create a vertically centered modal in Bootstrap?",
+        options: [
+          "modal-dialog-centered",
+          "modal-center",
+          "center-modal",
+          "modal-vcenter",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What does the `flex-wrap` class do in Bootstrap?",
+        options: [
+          "Wraps flex items to a new line if they overflow",
+          "Aligns flex items vertically",
+          "Stretches flex items",
+          "Centers flex items",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "Which class is used to create a progress bar in Bootstrap?",
+        options: ["progress-bar", "bar", "progress", "meter"],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is the purpose of the `shadow` class in Bootstrap?",
+        options: [
+          "Adds a border to an element",
+          "Adds a box shadow to an element",
+          "Darkens the background",
+          "Hides an element",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 19,
+        question: "Which class is used to create a striped table in Bootstrap?",
+        options: ["table-striped", "striped", "table-pattern", "row-striped"],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "What does the `align-self-center` class do in a flex container?",
+        options: [
+          "Aligns a flex item to the center vertically",
+          "Aligns all items to the center",
+          "Stretches the item to fill the container",
+          "Spaces items evenly",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "Which class is used to create a tooltip in Bootstrap?",
+        options: ["tooltip", "popover", "hint", "info"],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question:
+          "What is the purpose of the `data-bs-target` attribute in Bootstrap?",
+        options: [
+          "To set the background color",
+          "To specify the target element for a JavaScript component",
+          "To align text",
+          "To set the font size",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 23,
+        question: "Which class is used to create a carousel in Bootstrap?",
+        options: ["carousel", "slider", "gallery", "slideshow"],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question: "What does the `text-truncate` class do in Bootstrap?",
+        options: [
+          "Truncates text with an ellipsis if it overflows",
+          "Aligns text to the left",
+          "Makes text bold",
+          "Underlines text",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "Which class is used to create a button group in Bootstrap?",
+        options: ["btn-group", "button-group", "group-btn", "btn-cluster"],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What is the purpose of the `ratio` class in Bootstrap?",
+        options: [
+          "To set the font size",
+          "To maintain aspect ratios for embedded content",
+          "To align items",
+          "To add margins",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 27,
+        question: "Which class is used to create an accordion in Bootstrap?",
+        options: ["accordion", "collapse-group", "fold", "toggle-group"],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What does the `border-0` class do in Bootstrap?",
+        options: [
+          "Removes all borders from an element",
+          "Adds a border to an element",
+          "Centers an element",
+          "Hides an element",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "Which class is used to create a pagination component in Bootstrap?",
+        options: ["pagination", "pages", "nav-pages", "page-group"],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question: "What is the purpose of the `form-check` class in Bootstrap?",
+        options: [
+          "To style checkboxes and radio buttons",
+          "To align form inputs",
+          "To create a form button",
+          "To add padding to forms",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Bootstrap Advanced
+  {
+    id: "bootstrap-advanced",
+    technology: "bootstrap",
+    difficulty: "advanced",
+    questions: [
+      {
+        id: 1,
+        question:
+          "How do you create a custom breakpoint in Bootstrap 5 by modifying the Sass variables?",
+        options: [
+          "Override `$grid-breakpoints` in `_variables.scss`",
+          "Add a new class like `col-custom-6`",
+          "Modify `bootstrap.css` directly",
+          "Use `media-breakpoint-up` in CSS",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question:
+          "Which Bootstrap utility class is used to apply a CSS `mix-blend-mode` property?",
+        options: [
+          "blend-mode",
+          "mix-blend-mode",
+          "blend",
+          "No such utility exists",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: 3,
+        question:
+          "What is the purpose of the `data-bs-config` attribute in Bootstrap’s JavaScript components?",
+        options: [
+          "To style components",
+          "To pass configuration options to JavaScript plugins",
+          "To set accessibility attributes",
+          "To trigger animations",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 4,
+        question:
+          "How do you ensure a Bootstrap modal is accessible for screen readers?",
+        options: [
+          "Add `aria-labelledby` and `aria-describedby` attributes",
+          'Use `role="modal"` only',
+          'Set `tabindex="0"` on the modal',
+          'Add `data-bs-accessible="true"`',
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "Which Sass variable controls the primary color in Bootstrap 5?",
+        options: [
+          "$primary",
+          "$theme-colors",
+          "$color-primary",
+          "$brand-primary",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "What does the `position-absolute top-0 start-0` class combination do in Bootstrap?",
+        options: [
+          "Positions an element at the top-left corner",
+          "Centers an element",
+          "Aligns text to the left",
+          "Sets the element to full width",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question:
+          "How do you customize the number of grid columns in Bootstrap 5?",
+        options: [
+          "Override `$grid-columns` in Sass",
+          "Add `col-custom` classes",
+          "Modify `bootstrap-grid.css`",
+          "Use `data-bs-columns` attribute",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question:
+          "Which class is used to create a responsive aspect ratio of 16:9 in Bootstrap?",
+        options: ["ratio-16x9", "aspect-16-9", "ratio-16-9", "ratio-16by9"],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "What is the purpose of the `visually-hidden` class in Bootstrap?",
+        options: [
+          "Hides content visually but keeps it accessible to screen readers",
+          "Completely hides an element",
+          "Reduces opacity",
+          "Aligns text",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question:
+          "How do you trigger a Bootstrap tooltip programmatically using JavaScript?",
+        options: [
+          "Use `bootstrap.Tooltip.getOrCreateInstance(element).show()`",
+          "Call `$(element).tooltip('show')`",
+          'Use `data-bs-toggle="tooltip"`',
+          "Add `tooltip-show` class",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question:
+          "Which Bootstrap class is used to create a responsive gutters with no spacing on smaller screens?",
+        options: ["g-0 g-md-3", "no-gutters", "gutter-0", "gx-0 gy-md-3"],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question:
+          "What is the purpose of the `data-bs-spy` attribute in Bootstrap?",
+        options: [
+          "To enable scrollspy for navigation",
+          "To trigger modals",
+          "To style buttons",
+          "To set breakpoints",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question:
+          "How do you override Bootstrap’s default button styles using Sass?",
+        options: [
+          "Modify `$btn` variables and recompile",
+          "Add `!important` to CSS rules",
+          "Use `btn-custom` class",
+          "Edit `bootstrap.min.css`",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question:
+          "Which class is used to create a card with a stretched link in Bootstrap?",
+        options: ["stretched-link", "card-link", "link-stretch", "full-link"],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What does the `overflow-auto` class do in Bootstrap?",
+        options: [
+          "Adds scrollbars when content overflows",
+          "Hides overflowing content",
+          "Centers content",
+          "Stretches content",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question:
+          "How do you create a custom Bootstrap theme with a new color?",
+        options: [
+          "Add a new color to `$theme-colors` in Sass",
+          "Use `bg-custom` class",
+          "Modify `bootstrap.css`",
+          "Add `data-bs-theme` attribute",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question:
+          "Which class is used to create a responsive navbar that collapses on small screens?",
+        options: [
+          "navbar-expand-lg",
+          "navbar-collapse",
+          "nav-responsive",
+          "navbar-toggle",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question:
+          "What is the purpose of the `data-bs-ride` attribute in a Bootstrap carousel?",
+        options: [
+          "To enable automatic cycling",
+          "To set the slide duration",
+          "To align slides",
+          "To add captions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question:
+          "Which class is used to create a form with inline inputs in Bootstrap?",
+        options: [
+          "form-inline",
+          "inline-form",
+          "form-row",
+          "form-group-inline",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "How do you customize the Bootstrap modal’s backdrop opacity?",
+        options: [
+          "Override `$modal-backdrop-opacity` in Sass",
+          "Use `backdrop-opacity` class",
+          "Add `data-bs-backdrop` attribute",
+          "Modify `modal.css`",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question:
+          "Which class is used to create a dropdown menu with a divider in Bootstrap?",
+        options: [
+          "dropdown-divider",
+          "menu-divider",
+          "dropdown-sep",
+          "divider",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question:
+          "What is the purpose of the `data-bs-interval` attribute in a Bootstrap carousel?",
+        options: [
+          "To set the duration between slides",
+          "To align slides",
+          "To enable looping",
+          "To add captions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question:
+          "Which class is used to create a responsive table with hover effects in Bootstrap?",
+        options: [
+          "table-hover",
+          "hover-table",
+          "table-active",
+          "table-responsive-hover",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "How do you disable Bootstrap’s default focus ring for accessibility?",
+        options: [
+          "Override `$focus-ring` variables in Sass",
+          "Use `no-focus` class",
+          'Set `tabindex="-1"`',
+          'Add `data-bs-focus="false"`',
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question:
+          "Which class is used to create a badge with a pill shape in Bootstrap?",
+        options: ["rounded-pill", "badge-pill", "pill", "badge-rounded"],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question:
+          "What is the purpose of the `data-bs-placement` attribute in Bootstrap tooltips?",
+        options: [
+          "To set the tooltip’s position",
+          "To enable animation",
+          "To set the tooltip’s content",
+          "To align the tooltip",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question:
+          "Which class is used to create a list group with flush styling in Bootstrap?",
+        options: [
+          "list-group-flush",
+          "flush-list",
+          "list-flush",
+          "group-flush",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "How do you enable dark mode in Bootstrap 5?",
+        options: [
+          'Add `data-bs-theme="dark"` to the root element',
+          "Use `dark-mode` class",
+          "Modify `$theme` in Sass",
+          'Add `data-bs-dark="true"`',
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "Which class is used to create a responsive image with a thumbnail style in Bootstrap?",
+        options: [
+          "img-thumbnail",
+          "thumbnail",
+          "img-responsive",
+          "image-thumb",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is the purpose of the `data-bs-parent` attribute in a Bootstrap accordion?",
+        options: [
+          "To specify the parent accordion element",
+          "To set the animation speed",
+          "To align items",
+          "To add padding",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
 ];

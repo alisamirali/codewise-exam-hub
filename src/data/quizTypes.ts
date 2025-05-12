@@ -1,6 +1,12 @@
 export type DifficultyLevel = "beginner" | "intermediate" | "advanced";
 
-export type Technology = "html" | "css" | "javascript" | "tailwindcss" | "sass";
+export type Technology =
+  | "html"
+  | "css"
+  | "javascript"
+  | "tailwindcss"
+  | "sass"
+  | "bootstrap";
 
 export interface QuizCategory {
   id: Technology;
@@ -39,6 +45,12 @@ export const quizCategories: Record<Technology, QuizCategory> = {
     title: "Sass",
     color: "from-pink-400 to-pink-600",
     icon: "sass",
+  },
+  bootstrap: {
+    id: "bootstrap",
+    title: "Bootstrap",
+    color: "from-violet-400 to-violet-600",
+    icon: "bootstrap",
   },
 };
 
