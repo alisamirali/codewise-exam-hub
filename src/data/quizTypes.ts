@@ -4,9 +4,11 @@ export type Technology =
   | "html"
   | "css"
   | "javascript"
+  | "react"
   | "tailwindcss"
   | "sass"
-  | "bootstrap";
+  | "bootstrap"
+  | "typescript";
 
 export interface QuizCategory {
   id: Technology;
@@ -33,6 +35,18 @@ export const quizCategories: Record<Technology, QuizCategory> = {
     title: "JavaScript",
     color: "from-yellow-400 to-yellow-600",
     icon: "js",
+  },
+  react: {
+    id: "react",
+    title: "React",
+    color: "from-blue-400 to-cyan-600",
+    icon: "react",
+  },
+  typescript: {
+    id: "typescript",
+    title: "TypeScript",
+    color: "from-blue-500 to-blue-700",
+    icon: "typescript",
   },
   tailwindcss: {
     id: "tailwindcss",

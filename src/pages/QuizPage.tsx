@@ -1,14 +1,12 @@
-
-import React from 'react';
-import { useParams, Navigate } from 'react-router-dom';
-import { useQuiz } from '../context/QuizContext';
-import { quizzes } from '../data/quizData';
-import Header from '../components/Header';
-import QuizProgress from '../components/QuizProgress';
-import QuestionItem from '../components/QuestionItem';
-import ResultSummary from '../components/ResultSummary';
-import { Button } from '@/components/ui/button';
-import { ChevronLeft, ChevronRight, CheckCircle } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+import { CheckCircle, ChevronLeft, ChevronRight } from "lucide-react";
+import React from "react";
+import { Navigate, useParams } from "react-router-dom";
+import QuestionItem from "../components/QuestionItem";
+import QuizProgress from "../components/QuizProgress";
+import ResultSummary from "../components/ResultSummary";
+import { useQuiz } from "../context/QuizContext";
+import { quizzes } from "../data/quizData";
 
 const QuizPage: React.FC = () => {
   const { quizId } = useParams<{ quizId: string }>();
@@ -43,7 +41,6 @@ const QuizPage: React.FC = () => {
   if (quizFinished) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <main className="container mx-auto px-4 py-8">
           <ResultSummary />
         </main>
@@ -65,21 +62,19 @@ const QuizPage: React.FC = () => {
       );
       if (!confirm) return;
     }
-    
+
     finishQuiz();
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
-      
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
           <QuizProgress />
-          
+
           <div className="bg-white rounded-xl shadow-md p-6 mb-6">
             <QuestionItem question={currentQuestionData} />
-            
+
             <div className="flex justify-between mt-8">
               <Button
                 variant="outline"
@@ -90,9 +85,12 @@ const QuizPage: React.FC = () => {
                 <ChevronLeft className="mr-1 h-4 w-4" />
                 Previous
               </Button>
-              
+
               {isLastQuestion ? (
-                <Button onClick={handleFinishQuiz} className="flex items-center">
+                <Button
+                  onClick={handleFinishQuiz}
+                  className="flex items-center"
+                >
                   <CheckCircle className="mr-1 h-4 w-4" />
                   Finish Exam
                 </Button>
@@ -108,11 +106,11 @@ const QuizPage: React.FC = () => {
               )}
             </div>
           </div>
-          
+
           {!isLastQuestion && (
             <div className="text-center">
-              <Button 
-                variant="link" 
+              <Button
+                variant="link"
                 onClick={handleFinishQuiz}
                 className="text-gray-500 hover:text-gray-800"
               >
