@@ -18,7 +18,7 @@ export default function Index() {
               {/* Main Heading */}
               <div className="mb-8">
                 <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                  CodeWise Exam Hub
+                  CodeWise - Interview Hub
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
@@ -81,7 +81,7 @@ export default function Index() {
                   <div className="text-3xl font-bold text-blue-600 mb-2">
                     {quizzes.length}+
                   </div>
-                  <div className="text-gray-600">Practice Exams</div>
+                  <div className="text-gray-600">Practice Questions</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600 mb-2">
@@ -117,7 +117,7 @@ export default function Index() {
           </div>
         </section>
 
-        {/* Exams Section */}
+        {/* Questions Section */}
         <section className="container mx-auto px-4 py-12">
           <div className="space-y-8">
             {(Object.keys(quizCategories) as Technology[]).map((technology) => (
@@ -127,7 +127,7 @@ export default function Index() {
                 id={`${technology}-exams`}
               >
                 <h2 className="text-2xl font-bold pt-8">
-                  {quizCategories[technology].title} Exams
+                  {quizCategories[technology].title} Questions
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {quizzes

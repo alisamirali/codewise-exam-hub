@@ -6382,6 +6382,3025 @@ export const quizzes: Quiz[] = [
     ],
   },
 
+  // Angular Beginner
+  {
+    id: "angular-beginner",
+    technology: "angular",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: 1,
+        question: "What is Angular?",
+        options: [
+          "A JavaScript library for building user interfaces",
+          "A TypeScript-based web application framework",
+          "A CSS framework for styling",
+          "A database management system",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 2,
+        question: "Which command is used to create a new Angular project?",
+        options: [
+          "ng new project-name",
+          "angular create project-name",
+          "npm create angular project-name",
+          "create-angular project-name",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question: "What is a component in Angular?",
+        options: [
+          "A service that handles data",
+          "A building block of an Angular application with a template and logic",
+          "A module that organizes code",
+          "A directive for DOM manipulation",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 4,
+        question: "Which decorator is used to define a component in Angular?",
+        options: ["@Component", "@Service", "@Injectable", "@Directive"],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question: "What is the purpose of Angular CLI?",
+        options: [
+          "To manage CSS styles",
+          "To provide command-line tools for Angular development",
+          "To handle database operations",
+          "To manage user authentication",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 6,
+        question: "Which file contains the main application module in Angular?",
+        options: ["main.ts", "app.component.ts", "app.module.ts", "index.html"],
+        correctAnswer: 2,
+      },
+      {
+        id: 7,
+        question: "What is data binding in Angular?",
+        options: [
+          "A way to connect data between component and template",
+          "A method to store data in localStorage",
+          "A technique for database queries",
+          "A way to compress data",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question:
+          "Which syntax is used for property binding in Angular templates?",
+        options: ["{{ }}", "[ ]", "( )", "*ngFor"],
+        correctAnswer: 1,
+      },
+      {
+        id: 9,
+        question: "What is the purpose of *ngFor directive?",
+        options: [
+          "To create conditional rendering",
+          "To loop through arrays and create elements",
+          "To handle form validation",
+          "To manage routing",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 10,
+        question:
+          "Which directive is used for conditional rendering in Angular?",
+        options: ["*ngFor", "*ngIf", "*ngSwitch", "*ngClass"],
+        correctAnswer: 1,
+      },
+      {
+        id: 11,
+        question: "What is a service in Angular?",
+        options: [
+          "A component that displays data",
+          "A class that provides functionality across components",
+          "A template for HTML rendering",
+          "A module for routing",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 12,
+        question:
+          "Which decorator is used to make a class injectable as a service?",
+        options: ["@Component", "@Injectable", "@Directive", "@Pipe"],
+        correctAnswer: 1,
+      },
+      {
+        id: 13,
+        question: "What is dependency injection in Angular?",
+        options: [
+          "A way to import modules",
+          "A design pattern where dependencies are provided to a class",
+          "A method to export components",
+          "A technique for data binding",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 14,
+        question: "Which method is used to navigate between routes in Angular?",
+        options: ["navigate()", "goTo()", "router.navigate()", "navigateTo()"],
+        correctAnswer: 2,
+      },
+      {
+        id: 15,
+        question: "What is the purpose of Angular Router?",
+        options: [
+          "To manage component styles",
+          "To handle navigation between different views",
+          "To store application data",
+          "To manage form validation",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 16,
+        question: "Which file is used to define routes in Angular?",
+        options: [
+          "app.component.ts",
+          "app.routing.ts",
+          "main.ts",
+          "index.html",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 17,
+        question: "What is the purpose of Angular Forms?",
+        options: [
+          "To style components",
+          "To handle user input and form validation",
+          "To manage routing",
+          "To store data",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 18,
+        question: "Which module needs to be imported for reactive forms?",
+        options: [
+          "FormsModule",
+          "ReactiveFormsModule",
+          "HttpClientModule",
+          "RouterModule",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of Angular Pipes?",
+        options: [
+          "To create components",
+          "To transform data in templates",
+          "To handle routing",
+          "To manage services",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 20,
+        question: "Which pipe is used to format dates in Angular?",
+        options: ["date", "currency", "uppercase", "json"],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "What is the purpose of Angular Modules?",
+        options: [
+          "To create components",
+          "To organize and bundle related functionality",
+          "To handle routing",
+          "To manage styles",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 22,
+        question: "Which decorator is used to define a module in Angular?",
+        options: ["@Component", "@NgModule", "@Injectable", "@Directive"],
+        correctAnswer: 1,
+      },
+      {
+        id: 23,
+        question: "What is the purpose of Angular Directives?",
+        options: [
+          "To create services",
+          "To extend HTML with custom behavior",
+          "To manage routing",
+          "To handle data binding",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 24,
+        question: "Which directive is used to apply CSS classes conditionally?",
+        options: ["*ngIf", "*ngFor", "*ngClass", "*ngSwitch"],
+        correctAnswer: 2,
+      },
+      {
+        id: 25,
+        question: "What is the purpose of Angular HttpClient?",
+        options: [
+          "To manage routing",
+          "To make HTTP requests to APIs",
+          "To handle form validation",
+          "To create components",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 26,
+        question: "Which module needs to be imported to use HttpClient?",
+        options: [
+          "FormsModule",
+          "HttpClientModule",
+          "RouterModule",
+          "CommonModule",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 27,
+        question: "What is the purpose of Angular Lifecycle Hooks?",
+        options: [
+          "To manage routing",
+          "To execute code at specific moments in component lifecycle",
+          "To handle form validation",
+          "To create services",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 28,
+        question:
+          "Which lifecycle hook is called after component initialization?",
+        options: ["ngOnInit", "ngOnDestroy", "ngOnChanges", "ngAfterViewInit"],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "What is the purpose of Angular Guards?",
+        options: [
+          "To style components",
+          "To control access to routes",
+          "To handle form validation",
+          "To manage data binding",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 30,
+        question: "Which interface is implemented by route guards?",
+        options: [
+          "CanActivate",
+          "CanDeactivate",
+          "CanLoad",
+          "All of the above",
+        ],
+        correctAnswer: 3,
+      },
+    ],
+  },
+
+  // Angular Intermediate
+  {
+    id: "angular-intermediate",
+    technology: "angular",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: 1,
+        question:
+          "What is the difference between Template-driven and Reactive forms in Angular?",
+        options: [
+          "Template-driven forms are synchronous, Reactive forms are asynchronous",
+          "Template-driven forms use two-way data binding, Reactive forms use explicit form control management",
+          "Template-driven forms are faster, Reactive forms are slower",
+          "There is no difference between them",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 2,
+        question: "What is the purpose of Angular Resolvers?",
+        options: [
+          "To resolve component dependencies",
+          "To pre-fetch data before route activation",
+          "To resolve template compilation errors",
+          "To resolve service injection conflicts",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 3,
+        question:
+          "What is the difference between ngOnInit and constructor in Angular?",
+        options: [
+          "ngOnInit is called before constructor",
+          "Constructor is for dependency injection, ngOnInit is for initialization logic",
+          "They are identical in functionality",
+          "Constructor is deprecated in favor of ngOnInit",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 4,
+        question: "What is Angular Change Detection and how does it work?",
+        options: [
+          "A process that checks for changes in component data and updates the DOM",
+          "A method to detect changes in external APIs",
+          "A tool to detect changes in TypeScript files",
+          "A process to detect changes in CSS styles",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question: "What is OnPush change detection strategy?",
+        options: [
+          "A strategy that pushes changes to the server",
+          "A change detection strategy that only runs when input properties change or events are triggered",
+          "A strategy that pushes data to child components",
+          "A strategy that pushes changes to parent components",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 6,
+        question: "What is the purpose of Angular Interceptors?",
+        options: [
+          "To intercept HTTP requests and responses for cross-cutting concerns",
+          "To intercept user clicks on buttons",
+          "To intercept form submissions",
+          "To intercept route changes",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "What is Angular Lazy Loading?",
+        options: [
+          "Loading components slowly to improve performance",
+          "Loading feature modules on-demand to reduce initial bundle size",
+          "Loading data asynchronously",
+          "Loading CSS styles dynamically",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 8,
+        question: "What is the purpose of Angular Guards and what types exist?",
+        options: [
+          "CanActivate, CanDeactivate, CanLoad, Resolve",
+          "CanActivate, CanDeactivate, CanLoad",
+          "CanActivate, CanDeactivate",
+          "CanActivate only",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question: "What is Angular Dependency Injection and how does it work?",
+        options: [
+          "A pattern where dependencies are provided to a class through constructor parameters",
+          "A method to inject CSS styles into components",
+          "A way to inject HTML templates",
+          "A pattern to inject data into services",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question:
+          "What is the difference between @Injectable() and @Injectable({ providedIn: 'root' })?",
+        options: [
+          "No difference, they are identical",
+          "@Injectable() creates a singleton, @Injectable({ providedIn: 'root' }) creates multiple instances",
+          "@Injectable({ providedIn: 'root' }) creates a singleton, @Injectable() creates multiple instances",
+          "@Injectable() is deprecated",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 11,
+        question: "What is Angular ViewChild and how is it used?",
+        options: [
+          "A decorator to access child components, directives, or DOM elements",
+          "A service to manage child components",
+          "A directive to create child views",
+          "A pipe to transform child data",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is the purpose of Angular ContentChild?",
+        options: [
+          "To access projected content from parent component",
+          "To access child components",
+          "To access DOM elements",
+          "To access services",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is Angular Content Projection and how does it work?",
+        options: [
+          "A way to project content from parent component into child component using <ng-content>",
+          "A way to project data from services",
+          "A way to project styles from parent to child",
+          "A way to project routes between components",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "What is the purpose of Angular Custom Directives?",
+        options: [
+          "To extend HTML with custom behavior and DOM manipulation",
+          "To create custom components",
+          "To create custom services",
+          "To create custom pipes",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question:
+          "What is the difference between Structural and Attribute directives?",
+        options: [
+          "Structural directives change DOM structure (*ngIf, *ngFor), Attribute directives change element appearance or behavior",
+          "Structural directives are faster than Attribute directives",
+          "Attribute directives are deprecated",
+          "There is no difference",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What is Angular Custom Pipes and how are they created?",
+        options: [
+          "A way to transform data in templates using @Pipe decorator",
+          "A way to create custom components",
+          "A way to create custom services",
+          "A way to create custom directives",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "What is the purpose of Angular FormArray?",
+        options: [
+          "To manage dynamic form controls in an array",
+          "To create arrays in templates",
+          "To manage arrays in services",
+          "To create arrays in components",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is Angular FormBuilder and how is it used?",
+        options: [
+          "A service that provides methods to create form controls, groups, and arrays",
+          "A directive to build forms",
+          "A pipe to transform form data",
+          "A component to display forms",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of Angular AsyncPipe?",
+        options: [
+          "To handle asynchronous data streams and automatically subscribe/unsubscribe",
+          "To create asynchronous services",
+          "To handle asynchronous routing",
+          "To create asynchronous components",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What is Angular RxJS and how is it used?",
+        options: [
+          "A library for reactive programming using Observables",
+          "A library for routing",
+          "A library for forms",
+          "A library for HTTP requests only",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "What is the difference between Observable and Promise?",
+        options: [
+          "Observables can emit multiple values over time, Promises emit a single value",
+          "Promises are faster than Observables",
+          "Observables are deprecated in favor of Promises",
+          "There is no difference",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is Angular Subject and how is it used?",
+        options: [
+          "A special type of Observable that can multicast values to multiple subscribers",
+          "A type of service",
+          "A type of component",
+          "A type of directive",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "What is the purpose of Angular BehaviorSubject?",
+        options: [
+          "A Subject that stores the last emitted value and provides it to new subscribers",
+          "A Subject that behaves like a Promise",
+          "A Subject that only emits once",
+          "A Subject that emits errors",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "What is Angular State Management and what are common patterns?",
+        options: [
+          "Managing application state using services, NgRx, or Akita",
+          "Managing component state only",
+          "Managing route state only",
+          "Managing form state only",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "What is NgRx and how does it work?",
+        options: [
+          "A state management library using Redux pattern with Actions, Reducers, and Store",
+          "A routing library",
+          "A form validation library",
+          "A HTTP client library",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What is the purpose of Angular Effects in NgRx?",
+        options: [
+          "To handle side effects like HTTP requests in response to actions",
+          "To create visual effects in components",
+          "To handle form effects",
+          "To create routing effects",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is Angular Selectors in NgRx?",
+        options: [
+          "Functions that extract specific pieces of state from the store",
+          "CSS selectors for styling",
+          "Route selectors for navigation",
+          "Form selectors for validation",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is Angular Testing and what tools are commonly used?",
+        options: [
+          "Jasmine, Karma, and Angular Testing Utilities for unit and integration testing",
+          "Only Jasmine for testing",
+          "Only Karma for testing",
+          "Only Angular Testing Utilities",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "What is the purpose of Angular TestBed?",
+        options: [
+          "To create a testing environment that mimics the Angular runtime",
+          "To create production builds",
+          "To create development builds",
+          "To create component templates",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is Angular Performance Optimization and what techniques are used?",
+        options: [
+          "OnPush strategy, lazy loading, trackBy functions, and OnDestroy for memory management",
+          "Only OnPush strategy",
+          "Only lazy loading",
+          "Only trackBy functions",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Angular Advanced
+  {
+    id: "angular-advanced",
+    technology: "angular",
+    difficulty: "advanced",
+    questions: [
+      {
+        id: 1,
+        question: "What is Angular Ivy and what are its key benefits?",
+        options: [
+          "A new rendering engine with smaller bundle sizes, faster compilation, and better tree-shaking",
+          "A new state management library",
+          "A new routing system",
+          "A new testing framework",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question: "What is Angular Universal and how does it work?",
+        options: [
+          "A server-side rendering solution that runs Angular applications on the server",
+          "A universal component library",
+          "A universal testing framework",
+          "A universal build tool",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question: "What is Angular Elements and how is it used?",
+        options: [
+          "A way to package Angular components as custom elements for use in any web application",
+          "A way to create HTML elements",
+          "A way to manage DOM elements",
+          "A way to create CSS elements",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question: "What is Angular Schematics and what can it do?",
+        options: [
+          "A code generation tool that can create, modify, and refactor Angular applications",
+          "A diagramming tool for Angular architecture",
+          "A testing tool for Angular components",
+          "A deployment tool for Angular applications",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "What is Angular CDK (Component Dev Kit) and its main features?",
+        options: [
+          "A set of tools for building custom components with accessibility, behavior, and theming",
+          "A development kit for creating Angular CLI commands",
+          "A kit for creating Angular services",
+          "A kit for creating Angular pipes",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "What is Angular Material and how does it integrate with CDK?",
+        options: [
+          "A UI component library built on top of Angular CDK with Material Design principles",
+          "A material design CSS framework",
+          "A material design icon library",
+          "A material design color palette",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "What is Angular PWA (Progressive Web App) support?",
+        options: [
+          "Built-in support for creating Progressive Web Apps with service workers and app manifests",
+          "A way to create mobile apps",
+          "A way to create desktop apps",
+          "A way to create hybrid apps",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "What is Angular Zone.js and how does it work?",
+        options: [
+          "A library that patches browser APIs to detect asynchronous operations and trigger change detection",
+          "A library for managing time zones",
+          "A library for creating zones in applications",
+          "A library for managing geographical zones",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question: "What is Angular's Ahead-of-Time (AOT) compilation?",
+        options: [
+          "Compiling Angular templates and components at build time for better performance",
+          "Compiling Angular code at runtime",
+          "Compiling Angular code in the browser",
+          "Compiling Angular code on the server",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "What is Angular's Just-in-Time (JIT) compilation?",
+        options: [
+          "Compiling Angular templates and components at runtime in the browser",
+          "Compiling Angular code at build time",
+          "Compiling Angular code on the server",
+          "Compiling Angular code during development only",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question: "What is Angular's Tree Shaking and how does it work?",
+        options: [
+          "A process that removes unused code from the final bundle to reduce size",
+          "A process that organizes code in a tree structure",
+          "A process that creates a tree of components",
+          "A process that manages component hierarchy",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is Angular's Bundle Analyzer and how is it used?",
+        options: [
+          "A tool to analyze bundle size and identify optimization opportunities",
+          "A tool to analyze component performance",
+          "A tool to analyze routing performance",
+          "A tool to analyze service performance",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is Angular's Web Workers support?",
+        options: [
+          "Running Angular applications in web workers for better performance",
+          "Creating worker threads in Angular",
+          "Managing worker processes in Angular",
+          "Creating background tasks in Angular",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "What is Angular's Micro Frontend architecture?",
+        options: [
+          "Breaking large applications into smaller, independently deployable frontend applications",
+          "Creating microservices for frontend",
+          "Creating small frontend components",
+          "Creating minimal frontend applications",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What is Angular's Module Federation?",
+        options: [
+          "A way to share modules between different Angular applications at runtime",
+          "A way to create federated modules",
+          "A way to manage module dependencies",
+          "A way to create module hierarchies",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What is Angular's Standalone Components feature?",
+        options: [
+          "Components that can be used without being declared in a module",
+          "Components that work independently",
+          "Components that don't need dependencies",
+          "Components that are self-contained",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "What is Angular's Signal-based reactivity?",
+        options: [
+          "A new reactivity system using signals for fine-grained change detection",
+          "A system for managing signal processing",
+          "A system for handling audio signals",
+          "A system for managing network signals",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is Angular's Control Flow syntax (@if, @for, @switch)?",
+        options: [
+          "New template syntax for conditional rendering and loops without structural directives",
+          "New syntax for component control",
+          "New syntax for service control",
+          "New syntax for module control",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What is Angular's Built-in Control Flow and its benefits?",
+        options: [
+          "Native template control flow with better performance and type safety",
+          "Built-in form control flow",
+          "Built-in routing control flow",
+          "Built-in service control flow",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What is Angular's View Transitions API?",
+        options: [
+          "A new API for creating smooth transitions between different views",
+          "An API for managing view state",
+          "An API for creating view animations",
+          "An API for managing view lifecycle",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "What is Angular's Hydration and why is it important?",
+        options: [
+          "The process of making server-rendered content interactive on the client",
+          "The process of adding water to components",
+          "The process of refreshing components",
+          "The process of updating components",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is Angular's Partial Hydration?",
+        options: [
+          "Hydrating only specific parts of the application for better performance",
+          "Partially updating components",
+          "Partially rendering components",
+          "Partially loading components",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "What is Angular's Experimental APIs and how are they used?",
+        options: [
+          "New features in development that can be enabled for testing and feedback",
+          "APIs that are deprecated",
+          "APIs that are unstable",
+          "APIs that are experimental only",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question: "What is Angular's Performance Budgets?",
+        options: [
+          "Configurable limits on bundle size and performance metrics to prevent regressions",
+          "Budget allocation for Angular projects",
+          "Budget management for Angular teams",
+          "Budget tracking for Angular development",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "What is Angular's Differential Loading?",
+        options: [
+          "Loading different JavaScript bundles for different browsers based on ES2015 support",
+          "Loading different components for different users",
+          "Loading different modules for different environments",
+          "Loading different services for different platforms",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What is Angular's Build Optimizer?",
+        options: [
+          "A tool that optimizes the production build by removing unnecessary code and improving performance",
+          "A tool that optimizes development builds",
+          "A tool that optimizes test builds",
+          "A tool that optimizes debug builds",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is Angular's Source Maps and their importance?",
+        options: [
+          "Files that map compiled code back to original source code for debugging",
+          "Maps that show component hierarchy",
+          "Maps that show service dependencies",
+          "Maps that show module relationships",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is Angular's Environment Configuration?",
+        options: [
+          "Managing different configurations for development, staging, and production environments",
+          "Managing component environments",
+          "Managing service environments",
+          "Managing module environments",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "What is Angular's Custom Builders and how are they created?",
+        options: [
+          "Custom Angular CLI builders for extending build processes and adding new commands",
+          "Custom component builders",
+          "Custom service builders",
+          "Custom module builders",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question: "What is Angular's Advanced Testing Patterns?",
+        options: [
+          "Complex testing scenarios including integration tests, e2e tests, and performance testing",
+          "Basic testing patterns only",
+          "Simple testing patterns only",
+          "Unit testing patterns only",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Git Beginner
+  {
+    id: "git-beginner",
+    technology: "git",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: 1,
+        question: "What is Git?",
+        options: [
+          "A distributed version control system for tracking changes in source code",
+          "A programming language",
+          "A web development framework",
+          "A database management system",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question: "Which command is used to initialize a new Git repository?",
+        options: ["git init", "git start", "git create", "git new"],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question: "What is the purpose of git add command?",
+        options: [
+          "To stage changes for commit",
+          "To add new files to the repository",
+          "To add remote repositories",
+          "To add branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question: "Which command is used to commit staged changes?",
+        options: ["git commit", "git save", "git push", "git submit"],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question: "What is the purpose of git status command?",
+        options: [
+          "To show the current state of the working directory and staging area",
+          "To show the commit history",
+          "To show remote repositories",
+          "To show branch information",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question: "Which command is used to view the commit history?",
+        options: ["git log", "git history", "git show", "git list"],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "What is a Git branch?",
+        options: [
+          "A parallel version of the repository that allows independent development",
+          "A backup of the repository",
+          "A compressed version of the repository",
+          "A remote copy of the repository",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "Which command is used to create a new branch?",
+        options: ["git branch", "git create", "git new", "git add"],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question: "Which command is used to switch to a different branch?",
+        options: ["git checkout", "git switch", "git change", "git move"],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "What is the purpose of git merge command?",
+        options: [
+          "To combine changes from different branches",
+          "To create a new branch",
+          "To delete a branch",
+          "To rename a branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question: "What is a remote repository in Git?",
+        options: [
+          "A version of the repository hosted on a server or another computer",
+          "A local backup of the repository",
+          "A compressed version of the repository",
+          "A read-only version of the repository",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "Which command is used to add a remote repository?",
+        options: [
+          "git remote add",
+          "git add remote",
+          "git connect",
+          "git link",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is the purpose of git push command?",
+        options: [
+          "To upload local commits to a remote repository",
+          "To download commits from a remote repository",
+          "To create a new branch",
+          "To delete a branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "What is the purpose of git pull command?",
+        options: [
+          "To download and merge changes from a remote repository",
+          "To upload changes to a remote repository",
+          "To create a new branch",
+          "To delete a branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What is a Git commit?",
+        options: [
+          "A snapshot of the repository at a specific point in time",
+          "A backup of the repository",
+          "A compressed version of the repository",
+          "A remote copy of the repository",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What is the purpose of git clone command?",
+        options: [
+          "To create a local copy of a remote repository",
+          "To create a new repository",
+          "To delete a repository",
+          "To backup a repository",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "What is the staging area in Git?",
+        options: [
+          "An intermediate area where changes are prepared before committing",
+          "A backup area for files",
+          "A temporary storage area",
+          "A remote storage area",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "Which command is used to see the differences between files?",
+        options: ["git diff", "git compare", "git show", "git list"],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of git reset command?",
+        options: [
+          "To undo changes and move the HEAD pointer",
+          "To create a new branch",
+          "To delete a branch",
+          "To rename a branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What is HEAD in Git?",
+        options: [
+          "A pointer to the current commit in the repository",
+          "The main branch of the repository",
+          "The remote repository",
+          "The staging area",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "What is the default branch name in Git?",
+        options: ["main", "master", "primary", "default"],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "Which command is used to see all branches?",
+        options: ["git branch", "git branches", "git list", "git show"],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "What is the purpose of git stash command?",
+        options: [
+          "To temporarily save changes without committing them",
+          "To create a new branch",
+          "To delete a branch",
+          "To merge branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question: "Which command is used to apply stashed changes?",
+        options: [
+          "git stash pop",
+          "git stash apply",
+          "git stash restore",
+          "git stash get",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "What is a Git tag?",
+        options: [
+          "A reference to a specific commit, often used for marking release points",
+          "A branch in the repository",
+          "A remote repository",
+          "A backup of the repository",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "Which command is used to create a tag?",
+        options: ["git tag", "git create tag", "git add tag", "git new tag"],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is the purpose of .gitignore file?",
+        options: [
+          "To specify files and directories that Git should ignore",
+          "To store Git configuration",
+          "To store commit messages",
+          "To store branch information",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is a Git conflict?",
+        options: [
+          "When Git cannot automatically merge changes from different branches",
+          "When Git cannot connect to a remote repository",
+          "When Git cannot create a new branch",
+          "When Git cannot delete a branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "Which command is used to see the current branch?",
+        options: ["git branch", "git current", "git active", "git show"],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question: "What is the purpose of git config command?",
+        options: [
+          "To configure Git settings and preferences",
+          "To create a new repository",
+          "To delete a repository",
+          "To backup a repository",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Git Intermediate
+  {
+    id: "git-intermediate",
+    technology: "git",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: 1,
+        question: "What is the difference between git merge and git rebase?",
+        options: [
+          "Merge creates a merge commit, rebase replays commits on top of another branch",
+          "Merge is faster than rebase",
+          "Rebase is only for local branches",
+          "There is no difference between them",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question: "What is a fast-forward merge in Git?",
+        options: [
+          "A merge where the target branch can be moved forward without creating a merge commit",
+          "A merge that happens automatically",
+          "A merge that only works with remote branches",
+          "A merge that deletes the source branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question: "What is the purpose of git cherry-pick?",
+        options: [
+          "To apply specific commits from one branch to another",
+          "To delete specific commits",
+          "To rename commits",
+          "To merge all commits from a branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question: "What is git bisect and how is it used?",
+        options: [
+          "A tool to find the commit that introduced a bug using binary search",
+          "A tool to split commits",
+          "A tool to merge branches",
+          "A tool to delete branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "What is the difference between git reset --soft, --mixed, and --hard?",
+        options: [
+          "--soft keeps changes staged, --mixed unstages changes, --hard discards all changes",
+          "They are all the same",
+          "--hard is the safest option",
+          "--soft discards all changes",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question: "What is git reflog and why is it useful?",
+        options: [
+          "A log of all HEAD movements, useful for recovering lost commits",
+          "A log of all branches",
+          "A log of all remote repositories",
+          "A log of all tags",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "What is the purpose of git submodules?",
+        options: [
+          "To include one Git repository as a subdirectory of another repository",
+          "To create smaller repositories",
+          "To backup repositories",
+          "To compress repositories",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "What is git worktree and how does it work?",
+        options: [
+          "A feature that allows multiple working directories for the same repository",
+          "A feature to create multiple repositories",
+          "A feature to backup repositories",
+          "A feature to compress repositories",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question: "What is the difference between git fetch and git pull?",
+        options: [
+          "Fetch downloads changes without merging, pull downloads and merges changes",
+          "Fetch is faster than pull",
+          "Pull only works with remote branches",
+          "There is no difference",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "What is git hooks and what are they used for?",
+        options: [
+          "Scripts that run automatically at certain points in the Git workflow",
+          "Tools to create branches",
+          "Tools to merge branches",
+          "Tools to delete branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question: "What is the purpose of git blame?",
+        options: [
+          "To show who last modified each line of a file and when",
+          "To show all commits in a repository",
+          "To show all branches in a repository",
+          "To show all tags in a repository",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is git clean and how is it used?",
+        options: [
+          "To remove untracked files and directories from the working directory",
+          "To clean up commit history",
+          "To clean up branches",
+          "To clean up remote repositories",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is the purpose of git archive?",
+        options: [
+          "To create an archive of files from a named tree",
+          "To backup the entire repository",
+          "To compress the repository",
+          "To create a new repository",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "What is git bundle and how is it used?",
+        options: [
+          "To package a repository into a single file for transfer",
+          "To create a backup of the repository",
+          "To compress the repository",
+          "To create a new branch",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What is the difference between git revert and git reset?",
+        options: [
+          "Revert creates new commits to undo changes, reset moves the HEAD pointer",
+          "Revert is faster than reset",
+          "Reset only works with local branches",
+          "There is no difference",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What is git filter-branch and what is it used for?",
+        options: [
+          "To rewrite Git history by applying filters to each commit",
+          "To create new branches",
+          "To merge branches",
+          "To delete branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "What is the purpose of git notes?",
+        options: [
+          "To add additional information to commits without modifying the commit",
+          "To create new commits",
+          "To modify existing commits",
+          "To delete commits",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is git replace and how does it work?",
+        options: [
+          "To replace one object with another without changing the history",
+          "To replace branches",
+          "To replace remote repositories",
+          "To replace tags",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of git gc (garbage collection)?",
+        options: [
+          "To clean up unnecessary files and optimize the repository",
+          "To create new commits",
+          "To merge branches",
+          "To delete branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What is git fsck and what does it check?",
+        options: [
+          "To verify the connectivity and validity of objects in the repository",
+          "To check file permissions",
+          "To check branch names",
+          "To check remote repositories",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "What is the purpose of git show?",
+        options: [
+          "To display various types of objects (commits, tags, trees, blobs)",
+          "To show all branches",
+          "To show all commits",
+          "To show all files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is git describe and how is it used?",
+        options: [
+          "To give an object a human readable name based on an available ref",
+          "To describe branches",
+          "To describe commits",
+          "To describe files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "What is the purpose of git ls-tree?",
+        options: [
+          "To list the contents of a tree object",
+          "To list all branches",
+          "To list all commits",
+          "To list all files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question: "What is git cat-file and what does it do?",
+        options: [
+          "To provide content or type and size information for repository objects",
+          "To create new files",
+          "To modify existing files",
+          "To delete files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "What is the purpose of git update-ref?",
+        options: [
+          "To update the object name stored in a ref safely",
+          "To update file contents",
+          "To update commit messages",
+          "To update branch names",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What is git symbolic-ref and how is it used?",
+        options: [
+          "To read, modify and delete symbolic refs",
+          "To create new branches",
+          "To merge branches",
+          "To delete branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is the purpose of git for-each-ref?",
+        options: [
+          "To output information on each ref",
+          "To create new refs",
+          "To modify existing refs",
+          "To delete refs",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is git pack-refs and why is it useful?",
+        options: [
+          "To pack loose refs into a single file for efficiency",
+          "To create new refs",
+          "To modify existing refs",
+          "To delete refs",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "What is the purpose of git rev-parse?",
+        options: [
+          "To parse revision and path specifiers and output corresponding object names",
+          "To create new revisions",
+          "To modify existing revisions",
+          "To delete revisions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question: "What is git merge-base and how is it used?",
+        options: [
+          "To find as good common ancestors as possible for a merge",
+          "To create new merges",
+          "To modify existing merges",
+          "To delete merges",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  // Git Advanced
+  {
+    id: "git-advanced",
+    technology: "git",
+    difficulty: "advanced",
+    questions: [
+      {
+        id: 1,
+        question:
+          "What is Git's object model and what are the four main object types?",
+        options: [
+          "Blob, Tree, Commit, and Tag objects",
+          "File, Directory, Branch, and Remote objects",
+          "Head, Ref, Branch, and Tag objects",
+          "Working, Staging, Local, and Remote objects",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question: "What is the Git index and how does it work internally?",
+        options: [
+          "A binary file that stores staged changes and metadata about the working tree",
+          "A text file that lists all tracked files",
+          "A database that stores commit history",
+          "A cache that stores remote repository information",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question:
+          "What is Git's three-way merge algorithm and how does it work?",
+        options: [
+          "It compares the common ancestor with both branches to create a merge commit",
+          "It automatically merges all changes without conflicts",
+          "It only merges files that haven't changed",
+          "It creates a new branch for each merge",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question: "What is Git's packfile format and why is it important?",
+        options: [
+          "A compressed format that stores multiple objects efficiently to reduce repository size",
+          "A format for storing branch information",
+          "A format for storing commit messages",
+          "A format for storing remote repository data",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question:
+          "What is Git's delta compression and how does it optimize storage?",
+        options: [
+          "It stores only the differences between similar objects to reduce space",
+          "It compresses all files using gzip",
+          "It removes duplicate files automatically",
+          "It stores only the latest version of each file",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "What is Git's SHA-1 hash collision resistance and its implications?",
+        options: [
+          "The theoretical possibility of two different objects having the same hash, which could corrupt the repository",
+          "The ability to have multiple commits with the same message",
+          "The ability to have multiple branches with the same name",
+          "The ability to have multiple files with the same content",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question:
+          "What is Git's reflog expiration and how can it affect data recovery?",
+        options: [
+          "Reflog entries expire after a certain time, potentially making some commits unrecoverable",
+          "Reflog entries never expire",
+          "Reflog entries expire only for deleted branches",
+          "Reflog entries expire only for remote branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question:
+          "What is Git's garbage collection process and when does it run?",
+        options: [
+          "It removes unreachable objects and optimizes the repository, running automatically or manually",
+          "It only runs when explicitly called with git gc",
+          "It runs every time you commit",
+          "It runs only when pushing to remote",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "What is Git's loose object format and when are objects stored as loose?",
+        options: [
+          "Individual files for each object, used for recent objects before they're packed",
+          "A compressed format for all objects",
+          "A format only for large files",
+          "A format only for binary files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question:
+          "What is Git's multi-pack index and how does it improve performance?",
+        options: [
+          "An index that allows Git to efficiently search across multiple packfiles",
+          "An index that stores all commit information",
+          "An index that stores all branch information",
+          "An index that stores all tag information",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question:
+          "What is Git's commit-graph and how does it optimize repository operations?",
+        options: [
+          "A file that stores precomputed commit information to speed up operations like git log",
+          "A file that stores all commit messages",
+          "A file that stores all commit authors",
+          "A file that stores all commit dates",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is Git's partial clone feature and how does it work?",
+        options: [
+          "A feature that allows cloning only part of a repository to reduce bandwidth and storage",
+          "A feature that clones only the latest commit",
+          "A feature that clones only specific branches",
+          "A feature that clones only specific files",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is Git's shallow clone and what are its limitations?",
+        options: [
+          "A clone with limited history depth, but with restrictions on operations like push and merge",
+          "A clone that only includes the working directory",
+          "A clone that only includes the latest commit",
+          "A clone that only includes specific branches",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question:
+          "What is Git's narrow clone and how does it differ from partial clone?",
+        options: [
+          "A clone that includes only specific paths or directories from the repository",
+          "A clone that includes only the latest commits",
+          "A clone that includes only specific branches",
+          "A clone that includes only specific file types",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What is Git's bundle format and when is it useful?",
+        options: [
+          "A single file containing a complete repository, useful for offline transfers or backups",
+          "A compressed format for individual files",
+          "A format for storing commit history only",
+          "A format for storing branch information only",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question:
+          "What is Git's replace mechanism and how can it be used for history rewriting?",
+        options: [
+          "A mechanism to substitute one object for another without changing the original history",
+          "A mechanism to delete objects from history",
+          "A mechanism to merge objects",
+          "A mechanism to split objects",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question:
+          "What is Git's notes system and how can it extend commit information?",
+        options: [
+          "A system to attach additional information to commits without modifying the commit itself",
+          "A system to modify commit messages",
+          "A system to modify commit authors",
+          "A system to modify commit dates",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is Git's mailmap feature and how does it work?",
+        options: [
+          "A feature to map different email addresses and names to a canonical identity",
+          "A feature to send emails about commits",
+          "A feature to store email addresses in commits",
+          "A feature to validate email addresses",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question:
+          "What is Git's attribute system and how can it customize Git behavior?",
+        options: [
+          "A system to set attributes on files that control how Git treats them",
+          "A system to set attributes on commits",
+          "A system to set attributes on branches",
+          "A system to set attributes on tags",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "What is Git's clean and smudge filters and how do they work?",
+        options: [
+          "Filters that transform file content during checkin (clean) and checkout (smudge)",
+          "Filters that clean up commit messages",
+          "Filters that clean up branch names",
+          "Filters that clean up tag names",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question:
+          "What is Git's merge driver system and how can it be customized?",
+        options: [
+          "A system to define custom merge strategies for specific file types or patterns",
+          "A system to define custom commit strategies",
+          "A system to define custom push strategies",
+          "A system to define custom pull strategies",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question:
+          "What is Git's diff driver system and how can it be customized?",
+        options: [
+          "A system to define custom diff algorithms for specific file types",
+          "A system to define custom merge algorithms",
+          "A system to define custom commit algorithms",
+          "A system to define custom push algorithms",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question:
+          "What is Git's credential system and how does it manage authentication?",
+        options: [
+          "A system to securely store and manage credentials for remote repositories",
+          "A system to store commit credentials",
+          "A system to store branch credentials",
+          "A system to store tag credentials",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "What is Git's protocol v2 and how does it improve performance?",
+        options: [
+          "A more efficient protocol that reduces round trips and improves performance for large repositories",
+          "A protocol that only works with SSH",
+          "A protocol that only works with HTTPS",
+          "A protocol that only works with local repositories",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question:
+          "What is Git's LFS (Large File Storage) and how does it work?",
+        options: [
+          "An extension that stores large files outside the repository and tracks them with pointers",
+          "A system that compresses large files",
+          "A system that splits large files into smaller chunks",
+          "A system that stores large files in a separate database",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question:
+          "What is Git's worktree feature and how can it improve workflow?",
+        options: [
+          "A feature that allows multiple working directories for the same repository, enabling parallel work on different branches",
+          "A feature that creates multiple repositories",
+          "A feature that creates multiple remotes",
+          "A feature that creates multiple clones",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is Git's sparse-checkout feature and how does it work?",
+        options: [
+          "A feature that allows checking out only specific parts of the repository",
+          "A feature that checks out only the latest commit",
+          "A feature that checks out only specific branches",
+          "A feature that checks out only specific file types",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question:
+          "What is Git's maintenance command and how does it optimize repositories?",
+        options: [
+          "A command that runs various maintenance tasks to optimize repository performance and storage",
+          "A command that only cleans up branches",
+          "A command that only cleans up commits",
+          "A command that only cleans up tags",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "What is Git's scalar tool and how does it improve large repository performance?",
+        options: [
+          "A tool that optimizes Git for large repositories by enabling various performance features",
+          "A tool that scales repository size",
+          "A tool that scales commit history",
+          "A tool that scales branch count",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is Git's multi-pack bitmap and how does it improve performance?",
+        options: [
+          "A bitmap index that spans multiple packfiles to speed up reachability queries",
+          "A bitmap that stores all commit information",
+          "A bitmap that stores all branch information",
+          "A bitmap that stores all tag information",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+  // Node.js Beginner
+  {
+    id: "nodejs-beginner",
+    technology: "nodejs",
+    difficulty: "beginner",
+    questions: [
+      {
+        id: 1,
+        question: "What is Node.js?",
+        options: [
+          "A JavaScript runtime built on Chrome's V8 JavaScript engine",
+          "A JavaScript framework for frontend development",
+          "A database management system",
+          "A CSS preprocessor",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question: "What is the Node.js event loop?",
+        options: [
+          "A mechanism that handles asynchronous operations in Node.js",
+          "A loop that runs forever",
+          "A way to create infinite loops",
+          "A debugging tool",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question: "What is npm?",
+        options: [
+          "Node Package Manager - a package manager for Node.js",
+          "Node Process Manager",
+          "Node Performance Monitor",
+          "Node Project Manager",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question: "How do you create a simple HTTP server in Node.js?",
+        options: [
+          "Using the built-in http module",
+          "Using the built-in server module",
+          "Using the built-in web module",
+          "Using the built-in request module",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question: "What is the purpose of require() in Node.js?",
+        options: [
+          "To import modules and files",
+          "To export modules",
+          "To create new modules",
+          "To delete modules",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question: "What is the purpose of module.exports in Node.js?",
+        options: [
+          "To export functions, objects, or values from a module",
+          "To import functions from other modules",
+          "To create new modules",
+          "To delete modules",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "What is a callback function in Node.js?",
+        options: [
+          "A function that is passed as an argument to another function and executed later",
+          "A function that calls itself",
+          "A function that returns a value",
+          "A function that creates new functions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "What is the fs module used for in Node.js?",
+        options: [
+          "File system operations like reading and writing files",
+          "Network operations",
+          "Database operations",
+          "Math operations",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question: "What is the path module used for in Node.js?",
+        options: [
+          "Working with file and directory paths",
+          "Working with network paths",
+          "Working with database paths",
+          "Working with memory paths",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question:
+          "What is the difference between synchronous and asynchronous operations in Node.js?",
+        options: [
+          "Synchronous blocks execution, asynchronous doesn't block",
+          "Synchronous is faster than asynchronous",
+          "Asynchronous is faster than synchronous",
+          "There is no difference",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question: "What is the purpose of process.argv in Node.js?",
+        options: [
+          "To access command line arguments passed to the script",
+          "To access environment variables",
+          "To access file system information",
+          "To access network information",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is the purpose of process.env in Node.js?",
+        options: [
+          "To access environment variables",
+          "To access command line arguments",
+          "To access file system information",
+          "To access network information",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is the purpose of __dirname in Node.js?",
+        options: [
+          "To get the directory name of the current module",
+          "To get the file name of the current module",
+          "To get the path of the current module",
+          "To get the size of the current module",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "What is the purpose of __filename in Node.js?",
+        options: [
+          "To get the filename of the current module",
+          "To get the directory name of the current module",
+          "To get the path of the current module",
+          "To get the size of the current module",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What is the purpose of the url module in Node.js?",
+        options: [
+          "To parse and format URLs",
+          "To make HTTP requests",
+          "To create web servers",
+          "To handle file uploads",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What is the purpose of the querystring module in Node.js?",
+        options: [
+          "To parse and format URL query strings",
+          "To parse JSON data",
+          "To parse XML data",
+          "To parse CSV data",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "What is the purpose of the os module in Node.js?",
+        options: [
+          "To get operating system information",
+          "To get network information",
+          "To get file system information",
+          "To get database information",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question: "What is the purpose of the util module in Node.js?",
+        options: [
+          "To provide utility functions for various purposes",
+          "To provide networking functions",
+          "To provide file system functions",
+          "To provide database functions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of the crypto module in Node.js?",
+        options: [
+          "To provide cryptographic functionality",
+          "To provide file system functionality",
+          "To provide networking functionality",
+          "To provide database functionality",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What is the purpose of the stream module in Node.js?",
+        options: [
+          "To handle streaming data",
+          "To handle file operations",
+          "To handle network operations",
+          "To handle database operations",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "What is the purpose of the buffer module in Node.js?",
+        options: [
+          "To handle binary data",
+          "To handle text data",
+          "To handle JSON data",
+          "To handle XML data",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is the purpose of the events module in Node.js?",
+        options: [
+          "To handle events and event-driven programming",
+          "To handle file operations",
+          "To handle network operations",
+          "To handle database operations",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "What is the purpose of the child_process module in Node.js?",
+        options: [
+          "To spawn child processes",
+          "To create new threads",
+          "To create new modules",
+          "To create new servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question: "What is the purpose of the cluster module in Node.js?",
+        options: [
+          "To create child processes that share server ports",
+          "To create new threads",
+          "To create new modules",
+          "To create new databases",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "What is the purpose of the timers module in Node.js?",
+        options: [
+          "To schedule functions to be called at a later time",
+          "To measure execution time",
+          "To create timestamps",
+          "To handle time zones",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question: "What is the purpose of the assert module in Node.js?",
+        options: [
+          "To write tests and make assertions",
+          "To create assertions in production code",
+          "To handle errors",
+          "To handle exceptions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is the purpose of the vm module in Node.js?",
+        options: [
+          "To compile and run JavaScript code in a virtual machine context",
+          "To create virtual machines",
+          "To manage memory",
+          "To manage processes",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is the purpose of the zlib module in Node.js?",
+        options: [
+          "To provide compression and decompression functionality",
+          "To provide encryption functionality",
+          "To provide hashing functionality",
+          "To provide encoding functionality",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "What is the purpose of the readline module in Node.js?",
+        options: [
+          "To read data from a readable stream one line at a time",
+          "To read files line by line",
+          "To read network data line by line",
+          "To read database data line by line",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question: "What is the purpose of the repl module in Node.js?",
+        options: [
+          "To create a Read-Eval-Print Loop (REPL) session",
+          "To create a web server",
+          "To create a database connection",
+          "To create a file system interface",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+  // Node.js Intermediate
+  {
+    id: "nodejs-intermediate",
+    technology: "nodejs",
+    difficulty: "intermediate",
+    questions: [
+      {
+        id: 1,
+        question:
+          "What is the difference between process.nextTick() and setImmediate()?",
+        options: [
+          "process.nextTick() has higher priority and runs before setImmediate()",
+          "setImmediate() has higher priority and runs before process.nextTick()",
+          "They have the same priority",
+          "process.nextTick() is deprecated",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question: "What is the purpose of the EventEmitter class in Node.js?",
+        options: [
+          "To create objects that can emit and listen to events",
+          "To create HTTP servers",
+          "To create file streams",
+          "To create database connections",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question: "What is the purpose of the Stream API in Node.js?",
+        options: [
+          "To handle data streams efficiently without loading everything into memory",
+          "To handle HTTP requests",
+          "To handle file operations",
+          "To handle database operations",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question:
+          "What is the difference between readable, writable, duplex, and transform streams?",
+        options: [
+          "Readable: read data, Writable: write data, Duplex: both, Transform: modify data while passing through",
+          "They are all the same",
+          "Readable is the fastest",
+          "Transform is deprecated",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question: "What is the purpose of the cluster module in Node.js?",
+        options: [
+          "To create child processes that share server ports for load balancing",
+          "To create multiple servers",
+          "To create multiple databases",
+          "To create multiple file systems",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "What is the purpose of the worker_threads module in Node.js?",
+        options: [
+          "To run JavaScript in parallel using threads",
+          "To create web workers",
+          "To create child processes",
+          "To create clusters",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question: "What is the purpose of the async_hooks module in Node.js?",
+        options: [
+          "To track asynchronous resources and their lifecycle",
+          "To create async functions",
+          "To handle async errors",
+          "To manage async queues",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question: "What is the purpose of the perf_hooks module in Node.js?",
+        options: [
+          "To measure performance and timing of operations",
+          "To create performance tests",
+          "To optimize code automatically",
+          "To create benchmarks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question: "What is the purpose of the inspector module in Node.js?",
+        options: [
+          "To provide debugging and profiling capabilities",
+          "To inspect files",
+          "To inspect databases",
+          "To inspect networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question: "What is the purpose of the trace_events module in Node.js?",
+        options: [
+          "To trace and monitor application events",
+          "To trace file operations",
+          "To trace network operations",
+          "To trace database operations",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question:
+          "What is the purpose of the diagnostics_channel module in Node.js?",
+        options: [
+          "To create named channels for diagnostic data",
+          "To diagnose network issues",
+          "To diagnose file system issues",
+          "To diagnose database issues",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question: "What is the purpose of the test_runner module in Node.js?",
+        options: [
+          "To run tests and provide testing utilities",
+          "To create test files",
+          "To create test databases",
+          "To create test networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question: "What is the purpose of the wasi module in Node.js?",
+        options: [
+          "To run WebAssembly System Interface (WASI) programs",
+          "To create web applications",
+          "To create system interfaces",
+          "To create web services",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question: "What is the purpose of the webstreams module in Node.js?",
+        options: [
+          "To provide Web Streams API implementation",
+          "To create web servers",
+          "To create web clients",
+          "To create web applications",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question: "What is the purpose of the permission module in Node.js?",
+        options: [
+          "To manage permissions for file system and network access",
+          "To manage user permissions",
+          "To manage database permissions",
+          "To manage system permissions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question: "What is the purpose of the test module in Node.js?",
+        options: [
+          "To provide testing utilities and assertions",
+          "To create test files",
+          "To create test databases",
+          "To create test networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question: "What is the purpose of the punycode module in Node.js?",
+        options: [
+          "To encode and decode Punycode strings",
+          "To encode and decode URLs",
+          "To encode and decode JSON",
+          "To encode and decode XML",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question:
+          "What is the purpose of the string_decoder module in Node.js?",
+        options: [
+          "To decode Buffer objects into strings",
+          "To encode strings into buffers",
+          "To compress strings",
+          "To decompress strings",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question: "What is the purpose of the tls module in Node.js?",
+        options: [
+          "To implement TLS/SSL protocols for secure communication",
+          "To create secure file systems",
+          "To create secure databases",
+          "To create secure networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question: "What is the purpose of the net module in Node.js?",
+        options: [
+          "To create TCP servers and clients",
+          "To create HTTP servers",
+          "To create file servers",
+          "To create database servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question: "What is the purpose of the dgram module in Node.js?",
+        options: [
+          "To create UDP servers and clients",
+          "To create TCP servers",
+          "To create HTTP servers",
+          "To create file servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question: "What is the purpose of the https module in Node.js?",
+        options: [
+          "To create HTTPS servers and make HTTPS requests",
+          "To create HTTP servers",
+          "To create TCP servers",
+          "To create UDP servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question: "What is the purpose of the http2 module in Node.js?",
+        options: [
+          "To create HTTP/2 servers and clients",
+          "To create HTTP/1.1 servers",
+          "To create HTTPS servers",
+          "To create TCP servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question: "What is the purpose of the querystring module in Node.js?",
+        options: [
+          "To parse and format URL query strings",
+          "To parse JSON data",
+          "To parse XML data",
+          "To parse CSV data",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question: "What is the purpose of the punycode module in Node.js?",
+        options: [
+          "To encode and decode Punycode strings for internationalized domain names",
+          "To encode and decode URLs",
+          "To encode and decode JSON",
+          "To encode and decode XML",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question:
+          "What is the purpose of the string_decoder module in Node.js?",
+        options: [
+          "To decode Buffer objects into strings using a specific character encoding",
+          "To encode strings into buffers",
+          "To compress strings",
+          "To decompress strings",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question: "What is the purpose of the tls module in Node.js?",
+        options: [
+          "To implement TLS/SSL protocols for secure communication over networks",
+          "To create secure file systems",
+          "To create secure databases",
+          "To create secure networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question: "What is the purpose of the net module in Node.js?",
+        options: [
+          "To create TCP servers and clients for network communication",
+          "To create HTTP servers",
+          "To create file servers",
+          "To create database servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question: "What is the purpose of the dgram module in Node.js?",
+        options: [
+          "To create UDP servers and clients for datagram communication",
+          "To create TCP servers",
+          "To create HTTP servers",
+          "To create file servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question: "What is the purpose of the https module in Node.js?",
+        options: [
+          "To create HTTPS servers and make HTTPS requests with SSL/TLS encryption",
+          "To create HTTP servers",
+          "To create TCP servers",
+          "To create UDP servers",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+  // Node.js Advanced
+  {
+    id: "nodejs-advanced",
+    technology: "nodejs",
+    difficulty: "advanced",
+    questions: [
+      {
+        id: 1,
+        question:
+          "What is the V8 JavaScript engine and how does it work in Node.js?",
+        options: [
+          "Google's open-source JavaScript engine that compiles JavaScript to machine code",
+          "A JavaScript framework",
+          "A JavaScript library",
+          "A JavaScript runtime",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 2,
+        question:
+          "What is the libuv library and what role does it play in Node.js?",
+        options: [
+          "A C++ library that provides asynchronous I/O operations and the event loop",
+          "A JavaScript library",
+          "A Python library",
+          "A Java library",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 3,
+        question:
+          "What is the Node.js event loop and how does it handle different phases?",
+        options: [
+          "A single-threaded loop that processes callbacks in different phases: timers, pending callbacks, idle, poll, check, close",
+          "A multi-threaded loop",
+          "A synchronous loop",
+          "A blocking loop",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 4,
+        question: "What is the purpose of the Node.js C++ addon API?",
+        options: [
+          "To create native addons using C++ that can be loaded into Node.js",
+          "To create JavaScript modules",
+          "To create Python modules",
+          "To create Java modules",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 5,
+        question: "What is the purpose of the Node.js N-API (Node-API)?",
+        options: [
+          "A stable API for building native addons that works across Node.js versions",
+          "A JavaScript API",
+          "A Python API",
+          "A Java API",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 6,
+        question:
+          "What is the purpose of the Node.js worker_threads module and how does it differ from child_process?",
+        options: [
+          "Worker threads share memory and are lighter than child processes which are separate processes",
+          "They are identical",
+          "Child processes are lighter than worker threads",
+          "Worker threads are deprecated",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 7,
+        question:
+          "What is the purpose of the Node.js async_hooks module and how can it be used for tracking?",
+        options: [
+          "To track asynchronous resources and their lifecycle for debugging and monitoring",
+          "To create async functions",
+          "To handle async errors",
+          "To manage async queues",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 8,
+        question:
+          "What is the purpose of the Node.js perf_hooks module and how can it be used for performance monitoring?",
+        options: [
+          "To measure performance and timing of operations using high-resolution timestamps",
+          "To create performance tests",
+          "To optimize code automatically",
+          "To create benchmarks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 9,
+        question:
+          "What is the purpose of the Node.js inspector module and how can it be used for debugging?",
+        options: [
+          "To provide debugging and profiling capabilities using the Chrome DevTools protocol",
+          "To inspect files",
+          "To inspect databases",
+          "To inspect networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 10,
+        question:
+          "What is the purpose of the Node.js trace_events module and how can it be used for tracing?",
+        options: [
+          "To trace and monitor application events using the Chrome tracing format",
+          "To trace file operations",
+          "To trace network operations",
+          "To trace database operations",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 11,
+        question:
+          "What is the purpose of the Node.js diagnostics_channel module and how can it be used for diagnostics?",
+        options: [
+          "To create named channels for diagnostic data that can be subscribed to by diagnostic tools",
+          "To diagnose network issues",
+          "To diagnose file system issues",
+          "To diagnose database issues",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 12,
+        question:
+          "What is the purpose of the Node.js test_runner module and how can it be used for testing?",
+        options: [
+          "To run tests and provide testing utilities with built-in test runner capabilities",
+          "To create test files",
+          "To create test databases",
+          "To create test networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 13,
+        question:
+          "What is the purpose of the Node.js wasi module and how can it be used for WebAssembly?",
+        options: [
+          "To run WebAssembly System Interface (WASI) programs in Node.js",
+          "To create web applications",
+          "To create system interfaces",
+          "To create web services",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 14,
+        question:
+          "What is the purpose of the Node.js webstreams module and how can it be used for streaming?",
+        options: [
+          "To provide Web Streams API implementation for modern streaming operations",
+          "To create web servers",
+          "To create web clients",
+          "To create web applications",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 15,
+        question:
+          "What is the purpose of the Node.js permission module and how can it be used for security?",
+        options: [
+          "To manage permissions for file system and network access in a secure way",
+          "To manage user permissions",
+          "To manage database permissions",
+          "To manage system permissions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 16,
+        question:
+          "What is the purpose of the Node.js test module and how can it be used for testing?",
+        options: [
+          "To provide testing utilities and assertions with modern testing capabilities",
+          "To create test files",
+          "To create test databases",
+          "To create test networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 17,
+        question:
+          "What is the purpose of the Node.js punycode module and how can it be used for internationalization?",
+        options: [
+          "To encode and decode Punycode strings for internationalized domain names (IDN)",
+          "To encode and decode URLs",
+          "To encode and decode JSON",
+          "To encode and decode XML",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 18,
+        question:
+          "What is the purpose of the Node.js string_decoder module and how can it be used for encoding?",
+        options: [
+          "To decode Buffer objects into strings using a specific character encoding safely",
+          "To encode strings into buffers",
+          "To compress strings",
+          "To decompress strings",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 19,
+        question:
+          "What is the purpose of the Node.js tls module and how can it be used for secure communication?",
+        options: [
+          "To implement TLS/SSL protocols for secure communication over networks",
+          "To create secure file systems",
+          "To create secure databases",
+          "To create secure networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 20,
+        question:
+          "What is the purpose of the Node.js net module and how can it be used for network programming?",
+        options: [
+          "To create TCP servers and clients for low-level network communication",
+          "To create HTTP servers",
+          "To create file servers",
+          "To create database servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 21,
+        question:
+          "What is the purpose of the Node.js dgram module and how can it be used for UDP communication?",
+        options: [
+          "To create UDP servers and clients for datagram communication",
+          "To create TCP servers",
+          "To create HTTP servers",
+          "To create file servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 22,
+        question:
+          "What is the purpose of the Node.js https module and how can it be used for secure HTTP?",
+        options: [
+          "To create HTTPS servers and make HTTPS requests with SSL/TLS encryption",
+          "To create HTTP servers",
+          "To create TCP servers",
+          "To create UDP servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 23,
+        question:
+          "What is the purpose of the Node.js http2 module and how can it be used for HTTP/2?",
+        options: [
+          "To create HTTP/2 servers and clients with multiplexing and server push capabilities",
+          "To create HTTP/1.1 servers",
+          "To create HTTPS servers",
+          "To create TCP servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 24,
+        question:
+          "What is the purpose of the Node.js querystring module and how can it be used for URL parsing?",
+        options: [
+          "To parse and format URL query strings with proper encoding and decoding",
+          "To parse JSON data",
+          "To parse XML data",
+          "To parse CSV data",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 25,
+        question:
+          "What is the purpose of the Node.js punycode module and how can it be used for IDN?",
+        options: [
+          "To encode and decode Punycode strings for internationalized domain names (IDN) support",
+          "To encode and decode URLs",
+          "To encode and decode JSON",
+          "To encode and decode XML",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 26,
+        question:
+          "What is the purpose of the Node.js string_decoder module and how can it be used for safe decoding?",
+        options: [
+          "To decode Buffer objects into strings using a specific character encoding without data loss",
+          "To encode strings into buffers",
+          "To compress strings",
+          "To decompress strings",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 27,
+        question:
+          "What is the purpose of the Node.js tls module and how can it be used for SSL/TLS?",
+        options: [
+          "To implement TLS/SSL protocols for secure communication over networks with certificate management",
+          "To create secure file systems",
+          "To create secure databases",
+          "To create secure networks",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 28,
+        question:
+          "What is the purpose of the Node.js net module and how can it be used for TCP programming?",
+        options: [
+          "To create TCP servers and clients for low-level network communication with socket management",
+          "To create HTTP servers",
+          "To create file servers",
+          "To create database servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 29,
+        question:
+          "What is the purpose of the Node.js dgram module and how can it be used for UDP programming?",
+        options: [
+          "To create UDP servers and clients for datagram communication with socket management",
+          "To create TCP servers",
+          "To create HTTP servers",
+          "To create file servers",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 30,
+        question:
+          "What is the purpose of the Node.js https module and how can it be used for secure HTTP programming?",
+        options: [
+          "To create HTTPS servers and make HTTPS requests with SSL/TLS encryption and certificate management",
+          "To create HTTP servers",
+          "To create TCP servers",
+          "To create UDP servers",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
   // TypeScript Beginner
   {
     id: "typescript-beginner",

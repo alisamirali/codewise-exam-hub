@@ -1,20 +1,23 @@
-# CodeWise Exam Hub
+# CodeWise - Interview Hub
 
-CodeWise Exam Hub is a modern web application designed to help developers test and improve their web development knowledge through interactive exams. The platform offers comprehensive quizzes across different technologies and difficulty levels.
+CodeWise - Interview Hub is a modern web application designed to help developers test and improve their web development knowledge through interactive exams. The platform offers comprehensive quizzes across different technologies and difficulty levels.
 
 ## Features
 
 ### Multiple Technology Tracks
+
 - **HTML**: From basic tags to advanced semantic markup
 - **CSS**: Styling fundamentals to complex layouts
 - **JavaScript**: Core concepts to advanced programming
 
 ### Difficulty Levels
+
 - **Beginner**: Perfect for those just starting out
 - **Intermediate**: For developers with some experience
 - **Advanced**: Challenge yourself with complex concepts
 
 ### User-Friendly Interface
+
 - Clean and intuitive design
 - Responsive layout for all devices
 - Real-time progress tracking
@@ -37,17 +40,20 @@ CodeWise Exam Hub is a modern web application designed to help developers test a
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/alisamirali/codewise-exam-hub.git
 cd codewise-exam-hub
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 3. Start the development server
+
 ```bash
 npm run dev
 ```
@@ -71,7 +77,7 @@ codewise-exam-hub/
 
 ## Contributing
 
-We welcome contributions to CodeWise Exam Hub! Here's how you can help:
+We welcome contributions to CodeWise - Interview Hub! Here's how you can help:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -85,7 +91,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Thanks to all contributors who have helped shape CodeWise Exam Hub
+- Thanks to all contributors who have helped shape CodeWise - Interview Hub
 - Special thanks to the web development community for continuous inspiration
 
 ---

@@ -1,9 +1,10 @@
 {
   "name": "code_wise_exam_hub",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "author": "Ali Samir",
+  "description": "Master web development with our comprehensive, interactive exams. Test your skills, track your progress, and level up your career.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

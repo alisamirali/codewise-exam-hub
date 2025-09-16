@@ -1,6 +1,5 @@
-
-import React, { createContext, useContext, useState } from 'react';
-import { Quiz, Question } from '../data/quizData';
+import React, { createContext, useContext, useState } from "react";
+import { Quiz } from "../data/quizData";
 
 interface QuizContextProps {
   currentQuiz: Quiz | null;
@@ -21,7 +20,9 @@ interface QuizContextProps {
 
 const QuizContext = createContext<QuizContextProps | undefined>(undefined);
 
-export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [currentQuiz, setCurrentQuiz] = useState<Quiz | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
@@ -58,14 +59,14 @@ export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const calculateScore = () => {
     if (!currentQuiz) return 0;
-    
+
     let correctAnswers = 0;
     currentQuiz.questions.forEach((question) => {
       if (userAnswers[question.id] === question.correctAnswer) {
         correctAnswers++;
       }
     });
-    
+
     return correctAnswers;
   };
 
@@ -119,7 +120,7 @@ export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children
 export const useQuiz = () => {
   const context = useContext(QuizContext);
   if (context === undefined) {
-    throw new Error('useQuiz must be used within a QuizProvider');
+    throw new Error("useQuiz must be used within a QuizProvider");
   }
   return context;
 };
