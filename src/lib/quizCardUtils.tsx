@@ -12,7 +12,8 @@ import {
   FaSass,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiExpress, SiNestjs } from "react-icons/si";
+import {FaVuejs} from "react-icons/fa6"
 
 export const getIcon = (technology: Technology): React.ReactNode => {
   switch (technology) {
@@ -36,6 +37,12 @@ export const getIcon = (technology: Technology): React.ReactNode => {
       return <FaSass className="size-6" />;
     case "bootstrap":
       return <FaBootstrap className="size-6" />;
+    case "vue":
+      return <FaVuejs  className="size-6" />;
+    case "express":
+      return <SiExpress className="size-6" />;
+    case "nestjs":
+      return <SiNestjs className="size-6" />;
     default:
       return <SiTypescript className="size-6" />;
   }
@@ -63,6 +70,12 @@ export const getButtonVariant = (technology: Technology): string => {
       return "bg-pink-500 hover:bg-pink-600 text-white";
     case "bootstrap":
       return "bg-violet-500 hover:bg-violet-600 text-white";
+    case "vue":
+      return "bg-emerald-500 hover:bg-emerald-600 text-white";
+    case "express":
+      return "bg-gray-800 hover:bg-gray-900 text-white";
+    case "nestjs":
+      return "bg-red-600 hover:bg-red-700 text-white";
     default:
       return "bg-primary hover:bg-primary/90 text-white";
   }
@@ -90,6 +103,12 @@ export const getBadgeVariant = (technology: Technology): string => {
       return "bg-pink-100 text-pink-700";
     case "bootstrap":
       return "bg-violet-100 text-violet-700";
+    case "vue":
+      return "bg-emerald-100 text-emerald-700";
+    case "express":
+      return "bg-gray-100 text-gray-800";
+    case "nestjs":
+      return "bg-red-100 text-red-700";
     default:
       return "bg-primary/5 text-primary";
   }

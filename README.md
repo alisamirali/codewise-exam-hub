@@ -1,6 +1,6 @@
-# CodeWise - Interview Hub
+# DevGuide - Interview Hub
 
-CodeWise - Interview Hub is a modern web application designed to help developers test and improve their web development knowledge through interactive exams. The platform offers comprehensive quizzes across different technologies and difficulty levels.
+DevGuide - Interview Hub is a modern web application designed to help developers test and improve their web development knowledge through interactive exams. The platform offers comprehensive quizzes across different technologies and difficulty levels.
 
 ## Features
 
@@ -77,7 +77,7 @@ codewise-exam-hub/
 
 ## Contributing
 
-We welcome contributions to CodeWise - Interview Hub! Here's how you can help:
+We welcome contributions to DevGuide - Interview Hub! Here's how you can help:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -91,7 +91,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Thanks to all contributors who have helped shape CodeWise - Interview Hub
+- Thanks to all contributors who have helped shape DevGuide - Interview Hub
 - Special thanks to the web development community for continuous inspiration
 
 ---

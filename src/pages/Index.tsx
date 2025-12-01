@@ -18,7 +18,7 @@ export default function Index() {
               {/* Main Heading */}
               <div className="mb-8">
                 <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                  CodeWise - Interview Hub
+                  DevGuide - Interview Hub
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-700 leading-relaxed max-w-3xl mx-auto">

@@ -10,6 +10,9 @@ export type Technology =
   | "bootstrap"
   | "typescript"
   | "angular"
+  | "vue"
+  | "express"
+  | "nestjs"
   | "git"
   | "nodejs";
 
@@ -43,20 +46,6 @@ export const quizCategories: Record<Technology, QuizCategory> = {
     icon: "js",
     description: "Programming language of the web for interactivity",
   },
-  react: {
-    id: "react",
-    title: "React",
-    color: "#2563eb",
-    icon: "react",
-    description: "Library for building component‑based user interfaces",
-  },
-  angular: {
-    id: "angular",
-    title: "Angular",
-    color: "#c3002f",
-    icon: "angular",
-    description: "Framework for building scalable web applications",
-  },
   typescript: {
     id: "typescript",
     title: "TypeScript",
@@ -85,12 +74,27 @@ export const quizCategories: Record<Technology, QuizCategory> = {
     icon: "bootstrap",
     description: "Popular CSS framework for responsive design",
   },
-  git: {
-    id: "git",
-    title: "Git",
-    color: "#f05032",
-    icon: "git",
-    description: "Distributed version control for source code",
+  react: {
+    id: "react",
+    title: "React",
+    color: "#2563eb",
+    icon: "react",
+    description: "Library for building component‑based user interfaces",
+  },
+  angular: {
+    id: "angular",
+    title: "Angular",
+    color: "#c3002f",
+    icon: "angular",
+    description: "Framework for building scalable web applications",
+  },
+  vue: {
+    id: "vue",
+    title: "Vue.js",
+    color: "#4fc08d",
+    icon: "vue",
+    description:
+      "Progressive JavaScript framework for building user interfaces",
   },
   nodejs: {
     id: "nodejs",
@@ -98,6 +102,28 @@ export const quizCategories: Record<Technology, QuizCategory> = {
     color: "#339933",
     icon: "nodejs",
     description: "JavaScript runtime for building server‑side apps",
+  },
+  express: {
+    id: "express",
+    title: "Express.js",
+    color: "#000000",
+    icon: "express",
+    description: "Fast, unopinionated web framework for Node.js",
+  },
+  nestjs: {
+    id: "nestjs",
+    title: "NestJS",
+    color: "#e0234e",
+    icon: "nestjs",
+    description:
+      "Progressive Node.js framework for building efficient server-side applications",
+  },
+  git: {
+    id: "git",
+    title: "Git",
+    color: "#f05032",
+    icon: "git",
+    description: "Distributed version control for source code",
   },
 };
 
