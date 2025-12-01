@@ -9,6 +9,17 @@ DevGuide - Interview Hub is a modern web application designed to help developers
 - **HTML**: From basic tags to advanced semantic markup
 - **CSS**: Styling fundamentals to complex layouts
 - **JavaScript**: Core concepts to advanced programming
+- **TypeScript**: Typed superset of JavaScript for safer code
+- **React**: Library for building component-based user interfaces
+- **Angular**: Framework for building scalable web applications
+- **Vue.js**: Progressive JavaScript framework for building user interfaces
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
+- **Sass**: CSS preprocessor with variables and nesting
+- **Bootstrap**: Popular CSS framework for responsive design
+- **Node.js**: JavaScript runtime for building server-side apps
+- **Express.js**: Fast, unopinionated web framework for Node.js
+- **NestJS**: Progressive Node.js framework for building efficient server-side applications
+- **Git**: Distributed version control for source code
 
 ### Difficulty Levels
 
